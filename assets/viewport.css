@@ -1,0 +1,4 @@
+:root { color-scheme: light; }
+@media (min-width: 721px) {
+  .stage img { max-height: calc(100svh - 330px); min-height: 310px; }
+}

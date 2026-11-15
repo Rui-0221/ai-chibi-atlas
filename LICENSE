@@ -1,0 +1,10 @@
+AI Chibi Atlas uses separate terms for software and artwork.
+
+1. Original gallery code and project scripts are provided under LICENSE-CODE (MIT).
+2. Character designs, source images, generated derivatives, names and marks are
+   NOT covered by that MIT grant. See ASSET-LICENSES.md, ATTRIBUTION.md and each
+   character's provenance.json for the source-specific records and limitations.
+3. Upstream notices under sources/ retain their own statements.
+4. This collection does not assert a blanket commercial-use or redistribution
+   license over third-party characters or images. Unknown author/permission
+   records remain unknown after AI generation.

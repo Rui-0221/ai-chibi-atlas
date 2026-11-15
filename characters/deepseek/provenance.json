@@ -1,0 +1,18 @@
+{
+  "character": "deepseek",
+  "upstream_design_credit": "原型：上善无形；女仆二次设计：ZipZipPipe；三视图绘制者待核实。",
+  "source_repository": "https://github.com/shuaizenge/ai-girls/tree/main/characters/deepseek",
+  "upstream_page": "https://aigengtu.com/refs",
+  "license_status": "design-cc-by-nc-sa-4.0-file-author-unverified",
+  "license_record": "角色二次设计 CC BY-NC-SA 4.0；社区三视图文件具体绘制者与授权待核实。",
+  "original_video": "https://www.bilibili.com/video/BV1tE9XBbErS/",
+  "included_reference": {
+    "path": "characters/deepseek/references/author-video-frame.png",
+    "width": 720,
+    "height": 1280,
+    "bytes": 712701,
+    "sha256": "cbcd4b58b2115b8dbc7ece8271026841928be7ac594705693357ade8e8baacef"
+  },
+  "derivation": "原角色／服装 → 初版参考与补全 → 八人表情参考图 → v2-dance 三视图；不是模型厂商官方角色。",
+  "new_series_credit": "本项目整理与 AI 衍生补全；使用内置 imagegen。"
+}

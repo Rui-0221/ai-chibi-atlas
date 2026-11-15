@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-15",
+  "tool": "image_gen.imagegen (built-in)",
+  "model_version": "not exposed by tool",
+  "intent": "identity-preserve",
+  "identity_reference": "references/dance-reference-board.png",
+  "selected_character": "BOTTOM ROW, FIRST column",
+  "view_order": [
+    "front",
+    "left-side",
+    "back"
+  ],
+  "side_nose_direction": "image-left",
+  "output": {
+    "path": "characters/gpt/variants/v2-dance/sheet.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2086586,
+    "sha256": "80a5632badb1991c19bb1f8a32418e16930fe0f1d22e2c63b0cc7446bc6b685f"
+  },
+  "refinement_applied": true,
+  "human_visual_review": {
+    "reviewer": "Codex visual inspection",
+    "date": "2026-11-15",
+    "checks": [
+      "front-reference identity and costume",
+      "three complete aligned views",
+      "facial expression",
+      "left-right accessory consistency",
+      "eye color",
+      "tail/wing count and attachment"
+    ]
+  },
+  "interpretation": "Unseen structures are inferred; not engineering orthographic measurements."
+}

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="八位 AI 女性 Q 版拟人角色的多版本三视图作品集。">
+<title>AI Chibi Atlas · AI 娘三视图图鉴</title>
+<link rel="stylesheet" href="assets/gallery.css">
+<link rel="stylesheet" href="assets/viewport.css">
+</head>
+<body>
+<a class="skip" href="#viewer">跳到作品</a>
+<header class="masthead">
+  <a class="brand" href="index.html">AI CHIBI ATLAS<span>AI 娘三视图图鉴</span></a>
+  <div class="header-actions"><span id="collection-count"></span><button id="reference-button" type="button">共同参考图 <span aria-hidden="true">↗</span></button><a href="README.md">项目说明</a></div>
+</header>
+<div class="workspace">
+  <aside class="sidebar" aria-label="角色目录">
+    <p class="eyebrow">CHARACTERS / 角色</p>
+    <nav id="characters" aria-label="选择角色"></nav>
+    <div class="sidebar-note">每位角色，多个版本。<br>新系列对应同一张八人参考图。<a href="ASSET-LICENSES.md">署名与许可说明 ↗</a></div>
+  </aside>
+  <main id="viewer" tabindex="-1">
+    <div class="work-heading"><div><p id="character-meta" class="eyebrow"></p><h1 id="character-name"></h1><p id="character-description" class="description"></p></div><span id="position"></span></div>
+    <div class="toolbar">
+      <label class="version-label" for="version">版本 <select id="version"></select></label>
+      <div class="tools"><button id="compare-button" type="button" aria-pressed="false">并排对照</button><a id="download-link" class="download" download>下载 PNG <span aria-hidden="true">↓</span></a></div>
+    </div>
+    <div id="stages" class="stages">
+      <figure class="stage primary"><a id="full-image-link" target="_blank" rel="noopener"><img id="sheet-image" alt="" decoding="async"></a><figcaption><span id="version-caption"></span><span id="image-size"></span></figcaption></figure>
+      <figure id="comparison" class="stage" hidden><a id="compare-image-link" target="_blank" rel="noopener"><img id="compare-image" alt="" decoding="async"></a><figcaption id="compare-caption"></figcaption></figure>
+    </div>
+    <div class="work-note"><p id="variant-note"></p><a id="character-doc">角色档案与来源 ↗</a></div>
+    <p id="live-status" class="sr-only" aria-live="polite"></p>
+    <noscript><p>浏览画廊需要 JavaScript。也可查看 <a href="README.md">README 角色图鉴</a>。</p></noscript>
+  </main>
+</div>
+<footer>社区拟人作品 · AI 衍生补全 <span>2026.11.15 · <a href="ATTRIBUTION.md">来源署名</a> · <a href="docs/WORKFLOW.md">制作记录</a></span></footer>
+<dialog id="reference-dialog" aria-labelledby="reference-title"><div class="dialog-heading"><h2 id="reference-title">共同参考图</h2><button id="close-reference" type="button" aria-label="关闭共同参考图">关闭 ×</button></div><a href="references/dance-reference-board.png" target="_blank" rel="noopener"><img src="references/dance-reference-board.png" alt="DeepSeek、Qwen、Kimi、GLM、GPT、Claude、Gemini、Grok 八人正面形象参考图"></a><p>v2-dance 的共同正面设定依据。点击图片可查看原尺寸。</p></dialog>
+<script id="collection-data" type="application/json">__CATALOG__</script>
+<script src="assets/gallery.js"></script>
+</body></html>

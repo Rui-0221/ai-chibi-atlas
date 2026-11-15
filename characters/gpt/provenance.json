@@ -1,0 +1,18 @@
+{
+  "character": "gpt",
+  "upstream_design_credit": "原始角色设计参考 ZipZipPipe 系列；此白紫龙娘变体原图作者未标注，收录署名“这个刀子真甜”不等同于作者。三视图整理补全：lmy414/ai-chan-sheets。",
+  "source_repository": "https://github.com/lmy414/ai-chan-sheets/tree/main/设定图/13_GPT娘_Q版白紫龙娘",
+  "upstream_page": "https://xn--pssy23gqgbz2d718b.com/works/gpt202610310001.html",
+  "license_status": "upstream-author-license-unverified",
+  "license_record": "来源条目授权记录 unknown；整理仓库的声明不替代原作者授权。",
+  "original_video": "https://www.bilibili.com/video/BV1tE9XBbErS/",
+  "included_reference": {
+    "path": "characters/gpt/references/author-video-frame.png",
+    "width": 720,
+    "height": 1280,
+    "bytes": 1108711,
+    "sha256": "90606f78f5c8ee76c3547c0df2999ba145cdb50bef25e7fc6a8a6c3ecc4ee4d5"
+  },
+  "derivation": "原角色／服装 → 初版参考与补全 → 八人表情参考图 → v2-dance 三视图；不是模型厂商官方角色。",
+  "new_series_credit": "本项目整理与 AI 衍生补全；使用内置 imagegen。"
+}

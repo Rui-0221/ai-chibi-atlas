@@ -1,0 +1,25 @@
+name: 来源与署名更正
+description: 补充作者、原始发布页或具体图像的许可信息
+title: "[来源更正] "
+body:
+  - type: input
+    id: asset
+    attributes:
+      label: 角色与版本／文件路径
+      placeholder: characters/gpt/variants/v1-initial/sheet.png
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: 需要更正的内容
+      description: 请说明目前记录与建议更正。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 可核实的来源
+      description: 提供原作者发布页、署名或许可声明链接；不需要填写个人联系方式。
+    validations:
+      required: true

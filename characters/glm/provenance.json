@@ -1,0 +1,18 @@
+{
+  "character": "glm",
+  "upstream_design_credit": "角色与服装参考：ZipZipPipe《大AI和小AI们》；截帧整理：shuaizenge/ai-girls；本次三视图：Codex 内置 imagegen 生成，侧背面为衍生推定。",
+  "source_repository": "https://github.com/shuaizenge/ai-girls/tree/main/characters/glm",
+  "upstream_page": "https://www.bilibili.com/video/BV1tE9XBbErS/",
+  "license_status": "sharing-statement-no-standard-license-verified",
+  "license_record": "参考仓库记录作者开放分享与再创作的说明，未核实统一标准许可证；生成不改变原角色权利状态。",
+  "original_video": "https://www.bilibili.com/video/BV1tE9XBbErS/",
+  "included_reference": {
+    "path": "characters/glm/references/author-video-frame.png",
+    "width": 720,
+    "height": 1280,
+    "bytes": 828333,
+    "sha256": "9088698d394f6a358be564300bb29d793c90ed328e91b51af56c453d0db3fea9"
+  },
+  "derivation": "原角色／服装 → 初版参考与补全 → 八人表情参考图 → v2-dance 三视图；不是模型厂商官方角色。",
+  "new_series_credit": "本项目整理与 AI 衍生补全；使用内置 imagegen。"
+}

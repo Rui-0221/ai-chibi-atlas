@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-15",
+  "tool": "image_gen.imagegen (built-in)",
+  "model_version": "not exposed by tool",
+  "intent": "identity-preserve",
+  "identity_reference": "references/dance-reference-board.png",
+  "selected_character": "BOTTOM ROW, FOURTH column",
+  "view_order": [
+    "front",
+    "left-side",
+    "back"
+  ],
+  "side_nose_direction": "image-left",
+  "output": {
+    "path": "characters/grok/variants/v2-dance/sheet.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 1810031,
+    "sha256": "df0a20e0176e05604807ae7d835bc26a4b8a3143150a3f3db93e57c8ca503e7e"
+  },
+  "refinement_applied": false,
+  "human_visual_review": {
+    "reviewer": "Codex visual inspection",
+    "date": "2026-11-15",
+    "checks": [
+      "front-reference identity and costume",
+      "three complete aligned views",
+      "facial expression",
+      "left-right accessory consistency",
+      "eye color",
+      "tail/wing count and attachment"
+    ]
+  },
+  "interpretation": "Unseen structures are inferred; not engineering orthographic measurements."
+}

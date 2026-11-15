@@ -1,0 +1,496 @@
+{
+  "schema_version": 1,
+  "title": "AI Chibi Atlas · AI 娘三视图图鉴",
+  "date": "2026-11-15",
+  "release": "0.2.0",
+  "description": "八位 AI 女性 Q 版拟人角色的多版本三视图作品集。",
+  "excluded_character_ids": [
+    "doubao",
+    "seed"
+  ],
+  "reference_board": {
+    "path": "references/dance-reference-board.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2214412,
+    "sha256": "1829530d7c26aa1841fad75055c033b6c2b4d2ae05e92721f0fcb8a31a994d8a"
+  },
+  "character_count": 8,
+  "variant_count": 17,
+  "new_series": "v2-dance",
+  "new_series_count": 8,
+  "view_order": [
+    "FRONT",
+    "LEFT SIDE",
+    "BACK"
+  ],
+  "characters": [
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "short_name": "DeepSeek",
+      "region": "中国",
+      "organization": "DeepSeek",
+      "description": "蓝发鲸鱼娘 · 女仆装 · 天真小笑",
+      "featured_variant": "v2-dance",
+      "identity_reference": "references/dance-reference-board.png",
+      "board_position": "TOP ROW, FIRST column",
+      "license_status": "design-cc-by-nc-sa-4.0-file-author-unverified",
+      "provenance": "characters/deepseek/provenance.json",
+      "reference": {
+        "path": "characters/deepseek/references/author-video-frame.png",
+        "width": 720,
+        "height": 1280,
+        "bytes": 712701,
+        "sha256": "cbcd4b58b2115b8dbc7ece8271026841928be7ac594705693357ade8e8baacef"
+      },
+      "variants": [
+        {
+          "id": "v1-initial",
+          "label": "初版",
+          "kind": "community-resource",
+          "image": {
+            "path": "characters/deepseek/variants/v1-initial/sheet.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1651211,
+            "sha256": "f789f014ba127295fc806fd839056244a711cd439cbe0c62b23b633e2c857a8a"
+          },
+          "source": "https://github.com/shuaizenge/ai-girls/tree/main/characters/deepseek",
+          "notes": "保留初次交付的原始字节。"
+        },
+        {
+          "id": "v2-dance",
+          "label": "参考图匹配版",
+          "kind": "ai-derived",
+          "image": {
+            "path": "characters/deepseek/variants/v2-dance/sheet.png",
+            "width": 1536,
+            "height": 1024,
+            "bytes": 1759692,
+            "sha256": "5e7b2940c5cfc628bc371e2c9037a3d22fd55b32d95c738e2f7a587df3454287"
+          },
+          "prompt": "characters/deepseek/variants/v2-dance/prompt.txt",
+          "references": [
+            "references/dance-reference-board.png"
+          ],
+          "notes": "以八人参考图中的该角色为正面设计依据，侧背面为衍生推定。",
+          "generation": "characters/deepseek/variants/v2-dance/generation.json"
+        }
+      ]
+    },
+    {
+      "id": "qwen",
+      "name": "通义千问 Qwen",
+      "short_name": "Qwen",
+      "region": "中国",
+      "organization": "阿里巴巴",
+      "description": "蓝紫辫发 · 中式短裙与宽袖 · 温柔浅笑",
+      "featured_variant": "v2-dance",
+      "identity_reference": "references/dance-reference-board.png",
+      "board_position": "TOP ROW, SECOND column",
+      "license_status": "sharing-statement-no-standard-license-verified",
+      "provenance": "characters/qwen/provenance.json",
+      "reference": {
+        "path": "characters/qwen/references/author-video-frame.png",
+        "width": 720,
+        "height": 1280,
+        "bytes": 997530,
+        "sha256": "4f59aee4d8d4fa341a40b68f33d9593708f7eecfcb19c96ad8aa44d9bb844cb9"
+      },
+      "variants": [
+        {
+          "id": "v1-initial",
+          "label": "初版",
+          "kind": "ai-derived",
+          "image": {
+            "path": "characters/qwen/variants/v1-initial/sheet.png",
+            "width": 1536,
+            "height": 1024,
+            "bytes": 1864948,
+            "sha256": "67d4db182fdc7e266246aa4c93852885b8ba5adbbbe97db31fbf34ed3c3aef65"
+          },
+          "source": "https://github.com/shuaizenge/ai-girls/tree/main/characters/qwen",
+          "notes": "保留初次交付的原始字节。",
+          "prompt": "characters/qwen/variants/v1-initial/prompt.txt"
+        },
+        {
+          "id": "v2-dance",
+          "label": "参考图匹配版",
+          "kind": "ai-derived",
+          "image": {
+            "path": "characters/qwen/variants/v2-dance/sheet.png",
+            "width": 1536,
+            "height": 1024,
+            "bytes": 1835165,
+            "sha256": "6ede8bc2f0fd8c63294b0f61b5e10c5478f6f909bfcc0d300e9aaa4e744b3cb3"
+          },
+          "prompt": "characters/qwen/variants/v2-dance/prompt.txt",
+          "references": [
+            "references/dance-reference-board.png"
+          ],
+          "notes": "以八人参考图中的该角色为正面设计依据，侧背面为衍生推定。",
+          "layout_reference": "characters/deepseek/variants/v2-dance/sheet.png",
+          "generation": "characters/qwen/variants/v2-dance/generation.json"
+        }
+      ]
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "short_name": "Kimi",
+      "region": "中国",
+      "organization": "月之暗面",
+      "description": "银白长发 · 月亮披肩 · 短袜与安静微笑",
+      "featured_variant": "v2-dance",
+      "identity_reference": "references/dance-reference-board.png",
+      "board_position": "TOP ROW, THIRD column",
+      "license_status": "sharing-statement-no-standard-license-verified",
+      "provenance": "characters/kimi/provenance.json",
+      "reference": {
+        "path": "characters/kimi/references/author-video-frame.png",
+        "width": 720,
+        "height": 1280,
+        "bytes": 1040749,
+        "sha256": "bc9d61f6365e97e679dda15c59b9c8d78193b19ef379f6e1efaaad743b6f84f3"
+      },
+      "variants": [
+        {
+          "id": "v1-initial",
+          "label": "初版",
+          "kind": "ai-derived",
+          "image": {
+            "path": "characters/kimi/variants/v1-initial/sheet.png",
+            "width": 1536,
+            "height": 1024,
+            "bytes": 1830031,
+            "sha256": "6b1d28d2056d82577091b4d9592e5f02d7297e040f3a2019428de667b65ecf1c"
+          },
+          "source": "https://github.com/shuaizenge/ai-girls/tree/main/characters/kimi",
+          "notes": "保留初次交付的原始字节。",
+          "prompt": "characters/kimi/variants/v1-initial/prompt.txt"
+        },
+        {
+          "id": "v2-dance",
+          "label": "参考图匹配版",
+          "kind": "ai-derived",
+          "image": {
+            "path": "characters/kimi/variants/v2-dance/sheet.png",
+            "width": 1536,
+            "height": 1024,
+            "bytes": 2058918,
+            "sha256": "8c0fd49819c1d4224792c0d6fa4d280024ad53ae9e91a37edea743e288c14c27"
+          },
+          "prompt": "characters/kimi/variants/v2-dance/prompt.txt",
+          "references": [
+            "references/dance-reference-board.png"
+          ],
+          "notes": "以八人参考图中的该角色为正面设计依据，侧背面为衍生推定。",
+          "layout_reference": "characters/deepseek/variants/v2-dance/sheet.png",
+          "refinement_prompt": "characters/kimi/variants/v2-dance/refinement.prompt.txt",
+          "quality_note": "将三视图中的长褶袜改回参考图的短踝袜。",
+          "generation": "characters/kimi/variants/v2-dance/generation.json"
+        }
+      ]
+    },
+    {
+      "id": "glm",
+      "name": "智谱 GLM",
+      "short_name": "GLM",
+      "region": "中国",
+      "organization": "智谱",
+      "description": "黑长发 · 黑白书卷装 · 认真呆萌",
+      "featured_variant": "v2-dance",
+      "identity_reference": "references/dance-reference-board.png",
+      "board_position": "TOP ROW, FOURTH column",
+      "license_status": "sharing-statement-no-standard-license-verified",
+      "provenance": "characters/glm/provenance.json",
+      "reference": {
+        "path": "characters/glm/references/author-video-frame.png",
+        "width": 720,
+        "height": 1280,
+        "bytes": 828333,
+        "sha256": "9088698d394f6a358be564300bb29d793c90ed328e91b51af56c453d0db3fea9"
+      },
+      "variants": [
+        {
+          "id": "v1-initial",
+          "label": "初版",
+          "kind": "ai-derived",
+          "image": {
+            "path": "characters/glm/variants/v1-initial/sheet.png",
+            "width": 1536,
+            "height": 1024,
+            "bytes": 1877606,
+            "sha256": "ea46af2dcb97b4a8aef476f74b06bfa8bd9e4877fffc4a5b9d973ba588318de3"
+          },
+          "source": "https://github.com/shuaizenge/ai-girls/tree/main/characters/glm",
+          "notes": "保留初次交付的原始字节。",
+          "prompt": "characters/glm/variants/v1-initial/prompt.txt"
+        },
+        {
+          "id": "v2-dance",
+          "label": "参考图匹配版",
+          "kind": "ai-derived",
+          "image": {
+            "path": "characters/glm/variants/v2-dance/sheet.png",
+            "width": 1536,
+            "height": 1024,
+            "bytes": 1960357,
+            "sha256": "98e83303469d9ccffa8fb1a66bfdd33f44d151204e2ec2f7ad12fb847334780b"
+          },
+          "prompt": "characters/glm/variants/v2-dance/prompt.txt",
+          "references": [
+            "references/dance-reference-board.png"
+          ],
+          "notes": "以八人参考图中的该角色为正面设计依据，侧背面为衍生推定。",
+          "layout_reference": "characters/deepseek/variants/v2-dance/sheet.png",
+          "generation": "characters/glm/variants/v2-dance/generation.json"
+        }
+      ]
+    },
+    {
+      "id": "gpt",
+      "name": "ChatGPT / GPT",
+      "short_name": "GPT",
+      "region": "美国",
+      "organization": "OpenAI",
+      "description": "白紫龙娘 · 龙角龙翼龙尾 · 自信浅笑",
+      "featured_variant": "v2-dance",
+      "identity_reference": "references/dance-reference-board.png",
+      "board_position": "BOTTOM ROW, FIRST column",
+      "license_status": "upstream-author-license-unverified",
+      "provenance": "characters/gpt/provenance.json",
+      "reference": {
+        "path": "characters/gpt/references/author-video-frame.png",
+        "width": 720,
+        "height": 1280,
+        "bytes": 1108711,
+        "sha256": "90606f78f5c8ee76c3547c0df2999ba145cdb50bef25e7fc6a8a6c3ecc4ee4d5"
+      },
+      "variants": [
+        {
+          "id": "v1-initial",
+          "label": "初版",
+          "kind": "community-resource",
+          "image": {
+            "path": "characters/gpt/variants/v1-initial/sheet.png",
+            "width": 3348,
+            "height": 2000,
+            "bytes": 3599931,
+            "sha256": "6874585bc8fb1a27b769d681c6dc3ae59c3a1d640c570cfcb1ea56e34fb6d46a"
+          },
+          "source": "https://github.com/lmy414/ai-chan-sheets/tree/main/设定图/13_GPT娘_Q版白紫龙娘",
+          "notes": "保留社区原图的空白眼与流口水表情，仅作为历史版本；默认展示新系列。"
+        },
+        {
+          "id": "v1-natural-smile",
+          "label": "初版 · 自然微笑修订",
+          "kind": "ai-expression-edit",
+          "image": {
+            "path": "characters/gpt/variants/v1-natural-smile/sheet.png",
+            "width": 1623,
+            "height": 969,
+            "bytes": 1736283,
+            "sha256": "228f650bd8d10c466202b46d38030cd9121f34eafa5d6c23e922fe8ded835d74"
+          },
+          "prompt": "characters/gpt/variants/v1-natural-smile/prompt.txt",
+          "source": "https://github.com/lmy414/ai-chan-sheets/tree/main/设定图/13_GPT娘_Q版白紫龙娘",
+          "notes": "在初版基础上修订正面和侧面为紫色瞳孔、闭嘴浅笑，去除流口水。"
+        },
+        {
+          "id": "v2-dance",
+          "label": "参考图匹配版",
+          "kind": "ai-derived",
+          "image": {
+            "path": "characters/gpt/variants/v2-dance/sheet.png",
+            "width": 1536,
+            "height": 1024,
+            "bytes": 2086586,
+            "sha256": "80a5632badb1991c19bb1f8a32418e16930fe0f1d22e2c63b0cc7446bc6b685f"
+          },
+          "prompt": "characters/gpt/variants/v2-dance/prompt.txt",
+          "references": [
+            "references/dance-reference-board.png"
+          ],
+          "notes": "以八人参考图中的该角色为正面设计依据，侧背面为衍生推定。",
+          "layout_reference": "characters/deepseek/variants/v2-dance/sheet.png",
+          "refinement_prompt": "characters/gpt/variants/v2-dance/refinement.prompt.txt",
+          "quality_note": "补出侧面露在裙后的一段龙尾。",
+          "generation": "characters/gpt/variants/v2-dance/generation.json"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "short_name": "Claude",
+      "region": "美国",
+      "organization": "Anthropic",
+      "description": "橙发花饰 · 新领口与黑金腰结 · 温暖小笑",
+      "featured_variant": "v2-dance",
+      "identity_reference": "references/dance-reference-board.png",
+      "board_position": "BOTTOM ROW, SECOND column",
+      "license_status": "sharing-statement-no-standard-license-verified",
+      "provenance": "characters/claude/provenance.json",
+      "reference": {
+        "path": "characters/claude/references/author-video-frame.png",
+        "width": 720,
+        "height": 1280,
+        "bytes": 1166414,
+        "sha256": "331eb459d81c0a2f908fccaf8365f137a77098f81f1e145cca5413a1def07c55"
+      },
+      "variants": [
+        {
+          "id": "v1-initial",
+          "label": "初版",
+          "kind": "ai-derived",
+          "image": {
+            "path": "characters/claude/variants/v1-initial/sheet.png",
+            "width": 1536,
+            "height": 1024,
+            "bytes": 1940699,
+            "sha256": "8c45d895c6a1f629338d7f0550f98b2a776595fbc24b60998877cd2623cc0ab3"
+          },
+          "source": "https://github.com/shuaizenge/ai-girls/tree/main/characters/claude",
+          "notes": "保留初次交付的原始字节。",
+          "prompt": "characters/claude/variants/v1-initial/prompt.txt"
+        },
+        {
+          "id": "v2-dance",
+          "label": "参考图匹配版",
+          "kind": "ai-derived",
+          "image": {
+            "path": "characters/claude/variants/v2-dance/sheet.png",
+            "width": 1536,
+            "height": 1024,
+            "bytes": 1746223,
+            "sha256": "003b919dbc1c3510f81e3b146f7b137900d7164b7775b09a9bb9812a09b90032"
+          },
+          "prompt": "characters/claude/variants/v2-dance/prompt.txt",
+          "references": [
+            "references/dance-reference-board.png"
+          ],
+          "notes": "以八人参考图中的该角色为正面设计依据，侧背面为衍生推定。",
+          "layout_reference": "characters/deepseek/variants/v2-dance/sheet.png",
+          "quality_note": "保留八人图的新领口与黑金腰结，不加入初版披肩。",
+          "generation": "characters/claude/variants/v2-dance/generation.json"
+        }
+      ]
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "short_name": "Gemini",
+      "region": "美国",
+      "organization": "Google",
+      "description": "紫蓝渐变猫娘 · 异色瞳 · 星形饰品",
+      "featured_variant": "v2-dance",
+      "identity_reference": "references/dance-reference-board.png",
+      "board_position": "BOTTOM ROW, THIRD column",
+      "license_status": "sharing-statement-no-standard-license-verified",
+      "provenance": "characters/gemini/provenance.json",
+      "reference": {
+        "path": "characters/gemini/references/author-video-frame.png",
+        "width": 720,
+        "height": 1280,
+        "bytes": 981649,
+        "sha256": "d496c4edf07b964e18cce99b007c913237c9d44d1c8088fb84ea83e1972d1364"
+      },
+      "variants": [
+        {
+          "id": "v1-initial",
+          "label": "初版",
+          "kind": "ai-derived",
+          "image": {
+            "path": "characters/gemini/variants/v1-initial/sheet.png",
+            "width": 1536,
+            "height": 1024,
+            "bytes": 2192429,
+            "sha256": "c57a8fe471e444076fb5784e2416ba32e3cc2334d96ffbaa6f3370b7160f331a"
+          },
+          "source": "https://github.com/shuaizenge/ai-girls/tree/main/characters/gemini",
+          "notes": "保留初次交付的原始字节。",
+          "prompt": "characters/gemini/variants/v1-initial/prompt.txt",
+          "refinement_prompt": "characters/gemini/variants/v1-initial/refinement.prompt.txt"
+        },
+        {
+          "id": "v2-dance",
+          "label": "参考图匹配版",
+          "kind": "ai-derived",
+          "image": {
+            "path": "characters/gemini/variants/v2-dance/sheet.png",
+            "width": 1536,
+            "height": 1024,
+            "bytes": 1899125,
+            "sha256": "a1c827895d607426d8529be0f9f54ef1e589248cb23434559060f21fd220c1d2"
+          },
+          "prompt": "characters/gemini/variants/v2-dance/prompt.txt",
+          "references": [
+            "references/dance-reference-board.png"
+          ],
+          "notes": "以八人参考图中的该角色为正面设计依据，侧背面为衍生推定。",
+          "layout_reference": "characters/deepseek/variants/v2-dance/sheet.png",
+          "quality_note": "核对异色瞳：正面左粉右金；左侧面可见金色左眼。",
+          "generation": "characters/gemini/variants/v2-dance/generation.json"
+        }
+      ]
+    },
+    {
+      "id": "grok",
+      "name": "Grok",
+      "short_name": "Grok",
+      "region": "美国",
+      "organization": "xAI",
+      "description": "金色双马尾 · 黑红金裙装 · 俏皮闭嘴笑",
+      "featured_variant": "v2-dance",
+      "identity_reference": "references/dance-reference-board.png",
+      "board_position": "BOTTOM ROW, FOURTH column",
+      "license_status": "sharing-statement-no-standard-license-verified",
+      "provenance": "characters/grok/provenance.json",
+      "reference": {
+        "path": "characters/grok/references/author-video-frame.png",
+        "width": 720,
+        "height": 1280,
+        "bytes": 1039962,
+        "sha256": "2f311320ca878e084ae031b65fbb697d3eb296f4091050a71c33797b78f30235"
+      },
+      "variants": [
+        {
+          "id": "v1-initial",
+          "label": "初版",
+          "kind": "ai-derived",
+          "image": {
+            "path": "characters/grok/variants/v1-initial/sheet.png",
+            "width": 1536,
+            "height": 1024,
+            "bytes": 1862626,
+            "sha256": "5c65669a1702d1fd1de323228f415e5db06c5619afdeab1b5a5646afd1c80f65"
+          },
+          "source": "https://github.com/shuaizenge/ai-girls/tree/main/characters/grok",
+          "notes": "保留初次交付的原始字节。",
+          "prompt": "characters/grok/variants/v1-initial/prompt.txt"
+        },
+        {
+          "id": "v2-dance",
+          "label": "参考图匹配版",
+          "kind": "ai-derived",
+          "image": {
+            "path": "characters/grok/variants/v2-dance/sheet.png",
+            "width": 1536,
+            "height": 1024,
+            "bytes": 1810031,
+            "sha256": "df0a20e0176e05604807ae7d835bc26a4b8a3143150a3f3db93e57c8ca503e7e"
+          },
+          "prompt": "characters/grok/variants/v2-dance/prompt.txt",
+          "references": [
+            "references/dance-reference-board.png"
+          ],
+          "notes": "以八人参考图中的该角色为正面设计依据，侧背面为衍生推定。",
+          "layout_reference": "characters/deepseek/variants/v2-dance/sheet.png",
+          "generation": "characters/grok/variants/v2-dance/generation.json"
+        }
+      ]
+    }
+  ]
+}
