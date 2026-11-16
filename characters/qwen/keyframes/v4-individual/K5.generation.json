@@ -1,0 +1,36 @@
+{
+  "character": "qwen",
+  "frame": "K5",
+  "seconds": 3.5,
+  "date": "2026-11-16",
+  "tool": "image_gen.imagegen (built-in)",
+  "model_version": "not exposed by tool",
+  "identity_master": "characters/qwen/keyframes/v4-individual/K1.png",
+  "pose_reference": "Original user-provided matching frame crop; retained locally and not redistributed.",
+  "output": {
+    "path": "characters/qwen/keyframes/v4-individual/K5.png",
+    "width": 1671,
+    "height": 941,
+    "bytes": 1563640,
+    "sha256": "01b6dac7167ffe645c9cda62b5e75a0d03d30766471523c02830ce5ec5fa6baf"
+  },
+  "prompts": [
+    "K5.prompt.txt",
+    "K5.refinement.prompt.txt"
+  ],
+  "review": {
+    "reviewer": "Codex visual comparison",
+    "notes": "Refined K5: removed borrowed high stockings, rear braid and misplaced front pouch. Back-facing folded arms, no visible eye, source forward-left lean and pelvis-right shift retained, thighs separate with no crossing or knee lift. Rear hair/panels compared to own turnaround.",
+    "scope": [
+      "matching original pose/viewpoint/occlusion",
+      "same own-character identity and style",
+      "compact connected rounded arms/hands",
+      "source crop and visible thigh directions",
+      "no added raised knee or crossed-leg step",
+      "own tail/wing/accessory anatomy"
+    ],
+    "limitation": "Visual comparison; no pixel-exact tracing or motion-capture guarantee."
+  },
+  "pose_template": "characters/deepseek/keyframes/v4-individual/K5.png",
+  "turnaround_reference": "characters/qwen/variants/v2-dance/sheet.png"
+}

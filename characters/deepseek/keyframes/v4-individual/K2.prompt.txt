@@ -1,0 +1,17 @@
+Use case: identity-preserve. Create ONE SINGLE independent DeepSeek keyframe K2, not a contact sheet.
+Image 1 is the cropped ORIGINAL K2 reference (640x360). It is authoritative for the exact pose, character placement, framing, shoulder/elbow/wrist positions, torso lean, camera angle and visible thigh directions.
+Image 2 is the USER-APPROVED DeepSeek K1 master. It is authoritative for the SAME face, eye shape/highlights, round cheeks, fringe/hair masses, whale-fin side locks, colors, maid costume, sleeve volume, skin-colored round mitten hands, bold outline and cel-shaded drawing style.
+Replace only the rabbit character identity in image 1 with this EXACT DeepSeek model. This is a faithful re-pose of image 2 to match image 1, not a new generic cute dancing pose.
+K2 pose details, study image 1 closely:
+The PELVIS sits noticeably screen-LEFT of the head. The torso leans strongly toward SCREEN-RIGHT, roughly 35-45 degrees from upright, while the face keeps looking toward camera with only a small clockwise head tilt. Do not straighten the torso or put the head directly above the hips.
+The NEAR arm on VIEWER'S LEFT bends and rises diagonally; round near hand at upper-left beside the head, big navy sleeve foreshortened toward viewer. The FAR arm on VIEWER'S RIGHT is held LOW and BACK beside the waist/ribcage, partly occluded by head/hair/torso, with a smaller round hand peeking at the right silhouette. It is NOT another fist pushed in front of the apron or belly.
+Reference-relative anchors on the 640x360 crop, scale uniformly:
+near round hand center about (204,98);
+far low hand center about (428,235);
+face center about (351,145);
+neck about (340,217);
+pelvis center about (255,298).
+The neck-to-pelvis line must be strongly diagonal, not a mildly leaning standing doll. Preserve short rounded arms and plausible shoulder-elbow-wrist continuity. The near fist is higher and closer, far fist lower and behind. No separate fingers.
+Match the original visible legs: thighs descend below the tilted hips, one leg more vertical and the other projected diagonally in perspective. Do not add a jumping or lifted-knee action. Preserve original crop: upper body, skirt and only the upper leg portions; no need to invent feet or turn this into a small full-body figure. Same character scale in the frame as image 1. Do not zoom out.
+DeepSeek identity must stay exactly like image 2: very large blue/cyan gradient eyes, tiny closed omega smile, blush, broad round face, central chunky blue bangs, long cobalt hair with cyan ends, broad blue/white whale-fin side locks, curved blue ahoge, white frill maid headband and two blue bows; navy/white puff-sleeve maid dress with white ruffled cuffs, navy neck bow, white chest bib, gold buttons, navy belt, white whale apron, layered navy/white skirt, exactly one blue whale tail low behind the skirt. Long hair may follow the motion but must not hide the arm gesture.
+Draw in the same clean thick dark outline and controlled flat/cel shading as the approved master. No new face or outfit, no glossy miniature doll styling, no rabbit ears/tail/clothes. Mint background, landscape 16:9 like the original crop, black strip with exact white heading "K2 侧倾单拳上举 1.00s". One character, one frame only. Prioritize original pose geometry and approved character consistency.

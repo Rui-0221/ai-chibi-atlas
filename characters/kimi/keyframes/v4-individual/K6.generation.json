@@ -1,0 +1,35 @@
+{
+  "character": "kimi",
+  "frame": "K6",
+  "seconds": 4.6,
+  "date": "2026-11-16",
+  "tool": "image_gen.imagegen (built-in)",
+  "model_version": "not exposed by tool",
+  "identity_master": "characters/kimi/keyframes/v4-individual/K1.png",
+  "pose_reference": "Original user-provided matching frame crop; retained locally and not redistributed.",
+  "output": {
+    "path": "characters/kimi/keyframes/v4-individual/K6.png",
+    "width": 1672,
+    "height": 941,
+    "bytes": 1637793,
+    "sha256": "45def4fc5968a917ddc39a53d40fcc34e40e195577a594fff375112367cdb5fc"
+  },
+  "prompts": [
+    "K6.prompt.txt"
+  ],
+  "review": {
+    "reviewer": "Codex visual comparison",
+    "notes": "K6 back-three-quarter forward lean matched, one violet eye within narrow face wedge, compact near hand below eye and far arm hidden. Own capelet/white sleeve/back skirt consistent; bare upper thighs separate and down.",
+    "scope": [
+      "matching original pose/viewpoint/occlusion",
+      "same own-character identity and style",
+      "compact connected rounded arms/hands",
+      "source crop and visible thigh directions",
+      "no added raised knee or crossed-leg step",
+      "own tail/wing/accessory anatomy"
+    ],
+    "limitation": "Visual comparison; no pixel-exact tracing or motion-capture guarantee."
+  },
+  "pose_template": "characters/deepseek/keyframes/v4-individual/K6.png",
+  "turnaround_reference": "characters/kimi/variants/v2-dance/sheet.png"
+}

@@ -1,0 +1,17 @@
+Use case: identity-preserve. Draw ONE independent DeepSeek K3 keyframe. No collage, no other poses.
+Image 1 is the cropped ORIGINAL K3 pose, 640x360, authoritative for exact geometry, viewpoint, occlusion, placement and crop. Image 2 is the user-approved DeepSeek K1 character master, authoritative for exactly the same face, huge eye design, broad cheeks, fringe/hair masses, costume, round hand type and bold cel-shaded style.
+Replace the rabbit identity in image 1 with the DeepSeek from image 2, keeping the ORIGINAL K3 gesture and proportions instead of inventing a generic two-fists-up dance.
+Critical K3 observations from the original:
+- Head is forward and toward SCREEN-RIGHT of the hips; neck-to-pelvis line is strongly diagonal. Head looks almost at camera with only a mild clockwise tilt. Torso/pelvis are in a THREE-QUARTER HIP TWIST, hips shifted screen-left, not a flat front-facing standing doll.
+- ONE near fist is clearly visible at upper-left of the head. The OTHER raised far arm/hand is largely HIDDEN BEHIND THE HEAD / HAIR in this camera angle. Do NOT draw an extra fully visible round fist on the viewer-right side merely because the label says both fists. Preserve the original overlap.
+- Near compact upper arm and forearm rise along viewer-left side of head; elbow and shoulder connect naturally and are partly occluded by side hair. Same short puff-sleeve volume and round mitten as the master.
+- This is grounded pelvis rotation/hip sway, not a knee lift or jump. Original upper thighs go DOWN from their own hip joints; the farther thigh appears shorter due to perspective/occlusion, NOT because the knee or foot is lifted. Do not show a raised round thigh beside the skirt.
+Reference-relative anchors on 640x360, scale uniformly:
+visible near fist center about (203,108);
+eye/face center about (359,175);
+neck about (343,233);
+pelvis center about (260,321).
+Head lies clearly to the right of the pelvis; maintain the original torso bend and turned hip silhouette. Far hand not visibly floating on viewer-right. Body sits slightly lower than K2 as in the source.
+Preserve original framing/crop: upper body, skirt and cropped upper thighs, no invented feet, no zooming out to full-body. Same apparent character size and placement as original K3. Long DeepSeek hair follows the turn but must not hide the torso/hip gesture completely.
+DeepSeek must look EXACTLY like approved master: cobalt long hair with cyan ends, large blue/cyan eyes with same highlights, tiny closed omega smile, soft blush, rounded cheeks, same chunky central bangs, broad blue/white whale-fin-like side locks, blue ahoge, white ruffled maid headband and blue side bows; navy puff sleeves, white ruffled cuffs, navy neck bow, white bib/gold buttons, navy belt, layered navy/white skirt and white whale apron. One blue whale tail low behind skirt, not an extra arm. No rabbit ears, rabbit tail or rabbit costume, no individual fingers.
+Same thick clean dark outlines and simple controlled cel shading as master. Pale mint backdrop, landscape 16:9, black header with exact white text "K3 双拳举头边·偏右 1.80s". Pose accuracy and source occlusion take priority; same character design as K1 and K2.

@@ -1,0 +1,35 @@
+{
+  "character": "grok",
+  "frame": "K4",
+  "seconds": 2.2,
+  "date": "2026-11-16",
+  "tool": "image_gen.imagegen (built-in)",
+  "model_version": "not exposed by tool",
+  "identity_master": "characters/grok/keyframes/v4-individual/K1.png",
+  "pose_reference": "Original user-provided matching frame crop; retained locally and not redistributed.",
+  "output": {
+    "path": "characters/grok/keyframes/v4-individual/K4.png",
+    "width": 1672,
+    "height": 941,
+    "bytes": 1742872,
+    "sha256": "4b92427ac1d9aa816f1807ed8c961b0165c0303913b93c6787ddb44d5a5a29de"
+  },
+  "prompts": [
+    "K4.prompt.txt"
+  ],
+  "review": {
+    "reviewer": "Codex visual comparison",
+    "notes": "K4 near right fist higher/full and far left lower behind ponytail; counterclockwise eye line and hip-right shift retained. Two wings separated from sleeves, crown/twin tails/own dark legwear consistent, no raised knee or tail.",
+    "scope": [
+      "matching original pose/viewpoint/occlusion",
+      "same own-character identity and style",
+      "compact connected rounded arms/hands",
+      "source crop and visible thigh directions",
+      "no added raised knee or crossed-leg step",
+      "own tail/wing/accessory anatomy"
+    ],
+    "limitation": "Visual comparison; no pixel-exact tracing or motion-capture guarantee."
+  },
+  "pose_template": "characters/deepseek/keyframes/v4-individual/K4.png",
+  "turnaround_reference": "characters/grok/variants/v2-dance/sheet.png"
+}

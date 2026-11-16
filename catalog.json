@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "title": "AI Chibi Atlas · AI 娘三视图图鉴",
-  "date": "2026-11-15",
-  "release": "0.2.0",
-  "description": "八位 AI 女性 Q 版拟人角色的多版本三视图作品集。",
+  "date": "2026-11-16",
+  "release": "0.3.0",
+  "description": "八位 AI 女性 Q 版拟人角色：17 套三视图与 56 张独立动作关键帧。",
   "excluded_character_ids": [
     "doubao",
     "seed"
@@ -77,6 +77,132 @@
           "notes": "以八人参考图中的该角色为正面设计依据，侧背面为衍生推定。",
           "generation": "characters/deepseek/variants/v2-dance/generation.json"
         }
+      ],
+      "keyframes": [
+        {
+          "id": "v4-individual",
+          "label": "逐帧精修版",
+          "identity_reference": "characters/deepseek/keyframes/v4-individual/K1.png",
+          "frames": [
+            {
+              "id": "K1",
+              "seconds": 0.0,
+              "label": "张开双臂",
+              "image": {
+                "path": "characters/deepseek/keyframes/v4-individual/K1.png",
+                "width": 1594,
+                "height": 987,
+                "bytes": 1600503,
+                "sha256": "3368539f7c0acdb0a42621f7c0b5a745e498a0707293dfb019e527cc15c61277"
+              },
+              "generation": "characters/deepseek/keyframes/v4-individual/K1.generation.json",
+              "prompts": [
+                "characters/deepseek/keyframes/v4-individual/K1.prompt.txt"
+              ]
+            },
+            {
+              "id": "K2",
+              "seconds": 1.0,
+              "label": "侧倾单拳上举",
+              "image": {
+                "path": "characters/deepseek/keyframes/v4-individual/K2.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1564818,
+                "sha256": "ad03c0802c05187d45e31c9fba856bc55279e569d738186ee52cec7663352fcc"
+              },
+              "generation": "characters/deepseek/keyframes/v4-individual/K2.generation.json",
+              "prompts": [
+                "characters/deepseek/keyframes/v4-individual/K2.prompt.txt",
+                "characters/deepseek/keyframes/v4-individual/K2.refinement.prompt.txt"
+              ]
+            },
+            {
+              "id": "K3",
+              "seconds": 1.8,
+              "label": "双拳举头边·偏右",
+              "image": {
+                "path": "characters/deepseek/keyframes/v4-individual/K3.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1536739,
+                "sha256": "1584237c77531dbcf16238459f9172e26eba0424fbb0a9ac8cf07e60ee5fa327"
+              },
+              "generation": "characters/deepseek/keyframes/v4-individual/K3.generation.json",
+              "prompts": [
+                "characters/deepseek/keyframes/v4-individual/K3.prompt.txt"
+              ]
+            },
+            {
+              "id": "K4",
+              "seconds": 2.2,
+              "label": "双拳举头边·偏左",
+              "image": {
+                "path": "characters/deepseek/keyframes/v4-individual/K4.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1721683,
+                "sha256": "1dc610ee2f1e24ee7f2570eb44ad751b189820e71123a99e306a23051437272b"
+              },
+              "generation": "characters/deepseek/keyframes/v4-individual/K4.generation.json",
+              "prompts": [
+                "characters/deepseek/keyframes/v4-individual/K4.prompt.txt",
+                "characters/deepseek/keyframes/v4-individual/K4.refinement.prompt.txt"
+              ]
+            },
+            {
+              "id": "K5",
+              "seconds": 3.5,
+              "label": "背对抱臂",
+              "image": {
+                "path": "characters/deepseek/keyframes/v4-individual/K5.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1449134,
+                "sha256": "4903bfa7c3a257841c3ce57f1b064dadf9c6575a1f6c40f4ec0bdf2f09237dd2"
+              },
+              "generation": "characters/deepseek/keyframes/v4-individual/K5.generation.json",
+              "prompts": [
+                "characters/deepseek/keyframes/v4-individual/K5.prompt.txt"
+              ]
+            },
+            {
+              "id": "K6",
+              "seconds": 4.6,
+              "label": "回头偷看",
+              "image": {
+                "path": "characters/deepseek/keyframes/v4-individual/K6.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1555553,
+                "sha256": "ecb75047087c1a4ae9fa99440d0f0eb62009d9330a53605b31faa7e3a92d78f8"
+              },
+              "generation": "characters/deepseek/keyframes/v4-individual/K6.generation.json",
+              "prompts": [
+                "characters/deepseek/keyframes/v4-individual/K6.prompt.txt",
+                "characters/deepseek/keyframes/v4-individual/K6.refinement.prompt.txt"
+              ]
+            },
+            {
+              "id": "K7",
+              "seconds": 5.8,
+              "label": "背身手臂过头",
+              "image": {
+                "path": "characters/deepseek/keyframes/v4-individual/K7.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1514825,
+                "sha256": "cf046de2425a432119bcf50d36eac50d43382885b067b625f21b4e8807bd19a3"
+              },
+              "generation": "characters/deepseek/keyframes/v4-individual/K7.generation.json",
+              "prompts": [
+                "characters/deepseek/keyframes/v4-individual/K7.prompt.txt",
+                "characters/deepseek/keyframes/v4-individual/K7.refinement.prompt.txt",
+                "characters/deepseek/keyframes/v4-individual/K7.refinement2.prompt.txt"
+              ]
+            }
+          ]
+        }
       ]
     },
     {
@@ -132,6 +258,128 @@
           "notes": "以八人参考图中的该角色为正面设计依据，侧背面为衍生推定。",
           "layout_reference": "characters/deepseek/variants/v2-dance/sheet.png",
           "generation": "characters/qwen/variants/v2-dance/generation.json"
+        }
+      ],
+      "keyframes": [
+        {
+          "id": "v4-individual",
+          "label": "逐帧精修版",
+          "identity_reference": "characters/qwen/keyframes/v4-individual/K1.png",
+          "frames": [
+            {
+              "id": "K1",
+              "seconds": 0.0,
+              "label": "张开双臂",
+              "image": {
+                "path": "characters/qwen/keyframes/v4-individual/K1.png",
+                "width": 1593,
+                "height": 987,
+                "bytes": 1707290,
+                "sha256": "14eb9833734585bca7312fc60ec8b2ca3cd0cf1b87a5b3c0194ccd689ae5c531"
+              },
+              "generation": "characters/qwen/keyframes/v4-individual/K1.generation.json",
+              "prompts": [
+                "characters/qwen/keyframes/v4-individual/K1.prompt.txt"
+              ]
+            },
+            {
+              "id": "K2",
+              "seconds": 1.0,
+              "label": "侧倾单拳上举",
+              "image": {
+                "path": "characters/qwen/keyframes/v4-individual/K2.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1679738,
+                "sha256": "2d65be7b121b2a1862ed4e39a36e710b7d5fb812a7e25a2ccf2df018beac4d8f"
+              },
+              "generation": "characters/qwen/keyframes/v4-individual/K2.generation.json",
+              "prompts": [
+                "characters/qwen/keyframes/v4-individual/K2.prompt.txt"
+              ]
+            },
+            {
+              "id": "K3",
+              "seconds": 1.8,
+              "label": "双拳举头边·偏右",
+              "image": {
+                "path": "characters/qwen/keyframes/v4-individual/K3.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1641220,
+                "sha256": "8f10ecbf1c87b6f0e8889a8c42b96cc9a803273b844981974f5e6d1e415e7aae"
+              },
+              "generation": "characters/qwen/keyframes/v4-individual/K3.generation.json",
+              "prompts": [
+                "characters/qwen/keyframes/v4-individual/K3.prompt.txt"
+              ]
+            },
+            {
+              "id": "K4",
+              "seconds": 2.2,
+              "label": "双拳举头边·偏左",
+              "image": {
+                "path": "characters/qwen/keyframes/v4-individual/K4.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1680713,
+                "sha256": "ca8fed01fecb0a2613cae94505305f8234c367c09389fd420ae9efd012fb8b3b"
+              },
+              "generation": "characters/qwen/keyframes/v4-individual/K4.generation.json",
+              "prompts": [
+                "characters/qwen/keyframes/v4-individual/K4.prompt.txt"
+              ]
+            },
+            {
+              "id": "K5",
+              "seconds": 3.5,
+              "label": "背对抱臂",
+              "image": {
+                "path": "characters/qwen/keyframes/v4-individual/K5.png",
+                "width": 1671,
+                "height": 941,
+                "bytes": 1563640,
+                "sha256": "01b6dac7167ffe645c9cda62b5e75a0d03d30766471523c02830ce5ec5fa6baf"
+              },
+              "generation": "characters/qwen/keyframes/v4-individual/K5.generation.json",
+              "prompts": [
+                "characters/qwen/keyframes/v4-individual/K5.prompt.txt",
+                "characters/qwen/keyframes/v4-individual/K5.refinement.prompt.txt"
+              ]
+            },
+            {
+              "id": "K6",
+              "seconds": 4.6,
+              "label": "回头偷看",
+              "image": {
+                "path": "characters/qwen/keyframes/v4-individual/K6.png",
+                "width": 1671,
+                "height": 941,
+                "bytes": 1648012,
+                "sha256": "c1dd0e1dc31f4fa6413c43f3b7da26ee6ce5b0754bc0d7907fb440475b119b3c"
+              },
+              "generation": "characters/qwen/keyframes/v4-individual/K6.generation.json",
+              "prompts": [
+                "characters/qwen/keyframes/v4-individual/K6.prompt.txt"
+              ]
+            },
+            {
+              "id": "K7",
+              "seconds": 5.8,
+              "label": "背身手臂过头",
+              "image": {
+                "path": "characters/qwen/keyframes/v4-individual/K7.png",
+                "width": 1671,
+                "height": 941,
+                "bytes": 1623689,
+                "sha256": "cc2325ae695dcabcc86cd7485a35d40a47d7d65437acfbd0f822ba8073e63ad8"
+              },
+              "generation": "characters/qwen/keyframes/v4-individual/K7.generation.json",
+              "prompts": [
+                "characters/qwen/keyframes/v4-individual/K7.prompt.txt"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -191,6 +439,128 @@
           "quality_note": "将三视图中的长褶袜改回参考图的短踝袜。",
           "generation": "characters/kimi/variants/v2-dance/generation.json"
         }
+      ],
+      "keyframes": [
+        {
+          "id": "v4-individual",
+          "label": "逐帧精修版",
+          "identity_reference": "characters/kimi/keyframes/v4-individual/K1.png",
+          "frames": [
+            {
+              "id": "K1",
+              "seconds": 0.0,
+              "label": "张开双臂",
+              "image": {
+                "path": "characters/kimi/keyframes/v4-individual/K1.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1704732,
+                "sha256": "97f5f9b1e389c06aaa6034659e3f5d47126c32d8ab0a89f4992ae1c2fb448ef1"
+              },
+              "generation": "characters/kimi/keyframes/v4-individual/K1.generation.json",
+              "prompts": [
+                "characters/kimi/keyframes/v4-individual/K1.prompt.txt"
+              ]
+            },
+            {
+              "id": "K2",
+              "seconds": 1.0,
+              "label": "侧倾单拳上举",
+              "image": {
+                "path": "characters/kimi/keyframes/v4-individual/K2.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1707801,
+                "sha256": "37611eb955da961c1a7da8d9c2a10a615dfe313cfea2d5481c9d51df28faa234"
+              },
+              "generation": "characters/kimi/keyframes/v4-individual/K2.generation.json",
+              "prompts": [
+                "characters/kimi/keyframes/v4-individual/K2.prompt.txt"
+              ]
+            },
+            {
+              "id": "K3",
+              "seconds": 1.8,
+              "label": "双拳举头边·偏右",
+              "image": {
+                "path": "characters/kimi/keyframes/v4-individual/K3.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1673469,
+                "sha256": "fcb57434c94b349733deada334c7315b56d4d28f708656c11ac0b66360571b31"
+              },
+              "generation": "characters/kimi/keyframes/v4-individual/K3.generation.json",
+              "prompts": [
+                "characters/kimi/keyframes/v4-individual/K3.prompt.txt"
+              ]
+            },
+            {
+              "id": "K4",
+              "seconds": 2.2,
+              "label": "双拳举头边·偏左",
+              "image": {
+                "path": "characters/kimi/keyframes/v4-individual/K4.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1727381,
+                "sha256": "a528dfed947eb0fdc51e0c6a3b30b0671cd532f3b966365b73904d90845cae04"
+              },
+              "generation": "characters/kimi/keyframes/v4-individual/K4.generation.json",
+              "prompts": [
+                "characters/kimi/keyframes/v4-individual/K4.prompt.txt"
+              ]
+            },
+            {
+              "id": "K5",
+              "seconds": 3.5,
+              "label": "背对抱臂",
+              "image": {
+                "path": "characters/kimi/keyframes/v4-individual/K5.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1567655,
+                "sha256": "7dda4d8b1b78bc8c4d85280dd2ae1793e72207faf33959cd45e8cc80b32e5d57"
+              },
+              "generation": "characters/kimi/keyframes/v4-individual/K5.generation.json",
+              "prompts": [
+                "characters/kimi/keyframes/v4-individual/K5.prompt.txt"
+              ]
+            },
+            {
+              "id": "K6",
+              "seconds": 4.6,
+              "label": "回头偷看",
+              "image": {
+                "path": "characters/kimi/keyframes/v4-individual/K6.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1637793,
+                "sha256": "45def4fc5968a917ddc39a53d40fcc34e40e195577a594fff375112367cdb5fc"
+              },
+              "generation": "characters/kimi/keyframes/v4-individual/K6.generation.json",
+              "prompts": [
+                "characters/kimi/keyframes/v4-individual/K6.prompt.txt"
+              ]
+            },
+            {
+              "id": "K7",
+              "seconds": 5.8,
+              "label": "背身手臂过头",
+              "image": {
+                "path": "characters/kimi/keyframes/v4-individual/K7.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1730874,
+                "sha256": "395f7ba81815afd92d9384daf5d19581e82a5315cece71aad76d05896687944f"
+              },
+              "generation": "characters/kimi/keyframes/v4-individual/K7.generation.json",
+              "prompts": [
+                "characters/kimi/keyframes/v4-individual/K7.prompt.txt",
+                "characters/kimi/keyframes/v4-individual/K7.refinement.prompt.txt"
+              ]
+            }
+          ]
+        }
       ]
     },
     {
@@ -246,6 +616,128 @@
           "notes": "以八人参考图中的该角色为正面设计依据，侧背面为衍生推定。",
           "layout_reference": "characters/deepseek/variants/v2-dance/sheet.png",
           "generation": "characters/glm/variants/v2-dance/generation.json"
+        }
+      ],
+      "keyframes": [
+        {
+          "id": "v4-individual",
+          "label": "逐帧精修版",
+          "identity_reference": "characters/glm/keyframes/v4-individual/K1.png",
+          "frames": [
+            {
+              "id": "K1",
+              "seconds": 0.0,
+              "label": "张开双臂",
+              "image": {
+                "path": "characters/glm/keyframes/v4-individual/K1.png",
+                "width": 1593,
+                "height": 987,
+                "bytes": 1683468,
+                "sha256": "169f8c7c36d62cb377037e7ca78aa2c246c5b8071438af3f22d909db7aea5b04"
+              },
+              "generation": "characters/glm/keyframes/v4-individual/K1.generation.json",
+              "prompts": [
+                "characters/glm/keyframes/v4-individual/K1.prompt.txt"
+              ]
+            },
+            {
+              "id": "K2",
+              "seconds": 1.0,
+              "label": "侧倾单拳上举",
+              "image": {
+                "path": "characters/glm/keyframes/v4-individual/K2.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1780520,
+                "sha256": "5da08c047479513635acc9ff1068a2f16afc95c99a2bc58cdd58463788db6775"
+              },
+              "generation": "characters/glm/keyframes/v4-individual/K2.generation.json",
+              "prompts": [
+                "characters/glm/keyframes/v4-individual/K2.prompt.txt",
+                "characters/glm/keyframes/v4-individual/K2.refinement.prompt.txt"
+              ]
+            },
+            {
+              "id": "K3",
+              "seconds": 1.8,
+              "label": "双拳举头边·偏右",
+              "image": {
+                "path": "characters/glm/keyframes/v4-individual/K3.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1629832,
+                "sha256": "11bb97edced897dc4019555638ed137c59e151ba3ed2abc4d0650a331e861dc9"
+              },
+              "generation": "characters/glm/keyframes/v4-individual/K3.generation.json",
+              "prompts": [
+                "characters/glm/keyframes/v4-individual/K3.prompt.txt"
+              ]
+            },
+            {
+              "id": "K4",
+              "seconds": 2.2,
+              "label": "双拳举头边·偏左",
+              "image": {
+                "path": "characters/glm/keyframes/v4-individual/K4.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1662192,
+                "sha256": "dcdb555f8fda7ea1177abf9d5f4c7ca10a8c2064c0ad8d257365103bed7af86b"
+              },
+              "generation": "characters/glm/keyframes/v4-individual/K4.generation.json",
+              "prompts": [
+                "characters/glm/keyframes/v4-individual/K4.prompt.txt"
+              ]
+            },
+            {
+              "id": "K5",
+              "seconds": 3.5,
+              "label": "背对抱臂",
+              "image": {
+                "path": "characters/glm/keyframes/v4-individual/K5.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1496306,
+                "sha256": "19b35b585f1b9e3e3340887ce704a0a0ed2bddb8b8ae841f720d2c0eba617db4"
+              },
+              "generation": "characters/glm/keyframes/v4-individual/K5.generation.json",
+              "prompts": [
+                "characters/glm/keyframes/v4-individual/K5.prompt.txt"
+              ]
+            },
+            {
+              "id": "K6",
+              "seconds": 4.6,
+              "label": "回头偷看",
+              "image": {
+                "path": "characters/glm/keyframes/v4-individual/K6.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1586949,
+                "sha256": "0c47cf155b693e39484294dd89636bbe742e11b73c79ad246b381c4f613b631e"
+              },
+              "generation": "characters/glm/keyframes/v4-individual/K6.generation.json",
+              "prompts": [
+                "characters/glm/keyframes/v4-individual/K6.prompt.txt"
+              ]
+            },
+            {
+              "id": "K7",
+              "seconds": 5.8,
+              "label": "背身手臂过头",
+              "image": {
+                "path": "characters/glm/keyframes/v4-individual/K7.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1709459,
+                "sha256": "ab7081d8aa8b3f6b5873f2e855c353bd868f313bef9ff893d2550488c40a5b30"
+              },
+              "generation": "characters/glm/keyframes/v4-individual/K7.generation.json",
+              "prompts": [
+                "characters/glm/keyframes/v4-individual/K7.prompt.txt"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -319,6 +811,129 @@
           "quality_note": "补出侧面露在裙后的一段龙尾。",
           "generation": "characters/gpt/variants/v2-dance/generation.json"
         }
+      ],
+      "keyframes": [
+        {
+          "id": "v4-individual",
+          "label": "逐帧精修版",
+          "identity_reference": "characters/gpt/keyframes/v4-individual/K1.png",
+          "frames": [
+            {
+              "id": "K1",
+              "seconds": 0.0,
+              "label": "张开双臂",
+              "image": {
+                "path": "characters/gpt/keyframes/v4-individual/K1.png",
+                "width": 1593,
+                "height": 987,
+                "bytes": 1744270,
+                "sha256": "9deb191ac4b69079327a38363e87dcacc47ba17c64b0df1d07ed24bbf117c382"
+              },
+              "generation": "characters/gpt/keyframes/v4-individual/K1.generation.json",
+              "prompts": [
+                "characters/gpt/keyframes/v4-individual/K1.prompt.txt"
+              ]
+            },
+            {
+              "id": "K2",
+              "seconds": 1.0,
+              "label": "侧倾单拳上举",
+              "image": {
+                "path": "characters/gpt/keyframes/v4-individual/K2.png",
+                "width": 1671,
+                "height": 941,
+                "bytes": 1699917,
+                "sha256": "0fa392e36b5d491962efeef71f2f37618f2094d853a9635bf5687c10c057275e"
+              },
+              "generation": "characters/gpt/keyframes/v4-individual/K2.generation.json",
+              "prompts": [
+                "characters/gpt/keyframes/v4-individual/K2.prompt.txt"
+              ]
+            },
+            {
+              "id": "K3",
+              "seconds": 1.8,
+              "label": "双拳举头边·偏右",
+              "image": {
+                "path": "characters/gpt/keyframes/v4-individual/K3.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1665957,
+                "sha256": "2829ca0e8f0f99cbec1e9b088fe4310528e2e8386151f2d6a6c065a5b762e3df"
+              },
+              "generation": "characters/gpt/keyframes/v4-individual/K3.generation.json",
+              "prompts": [
+                "characters/gpt/keyframes/v4-individual/K3.prompt.txt"
+              ]
+            },
+            {
+              "id": "K4",
+              "seconds": 2.2,
+              "label": "双拳举头边·偏左",
+              "image": {
+                "path": "characters/gpt/keyframes/v4-individual/K4.png",
+                "width": 1671,
+                "height": 941,
+                "bytes": 1695026,
+                "sha256": "59fabe61436d2810d622bd6fca82c219814558c4b519dd919cdda38bd261b493"
+              },
+              "generation": "characters/gpt/keyframes/v4-individual/K4.generation.json",
+              "prompts": [
+                "characters/gpt/keyframes/v4-individual/K4.prompt.txt"
+              ]
+            },
+            {
+              "id": "K5",
+              "seconds": 3.5,
+              "label": "背对抱臂",
+              "image": {
+                "path": "characters/gpt/keyframes/v4-individual/K5.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1568995,
+                "sha256": "1ccf804292fe182a2fbbb41a6835fed54199fb5233c8f9870d0730e8f6d518d6"
+              },
+              "generation": "characters/gpt/keyframes/v4-individual/K5.generation.json",
+              "prompts": [
+                "characters/gpt/keyframes/v4-individual/K5.prompt.txt",
+                "characters/gpt/keyframes/v4-individual/K5.refinement.prompt.txt"
+              ]
+            },
+            {
+              "id": "K6",
+              "seconds": 4.6,
+              "label": "回头偷看",
+              "image": {
+                "path": "characters/gpt/keyframes/v4-individual/K6.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1713743,
+                "sha256": "c8dfe3f6bae65068d77e32918772888a2a473b5d868a78bbf693914799c228bf"
+              },
+              "generation": "characters/gpt/keyframes/v4-individual/K6.generation.json",
+              "prompts": [
+                "characters/gpt/keyframes/v4-individual/K6.prompt.txt",
+                "characters/gpt/keyframes/v4-individual/K6.refinement.prompt.txt"
+              ]
+            },
+            {
+              "id": "K7",
+              "seconds": 5.8,
+              "label": "背身手臂过头",
+              "image": {
+                "path": "characters/gpt/keyframes/v4-individual/K7.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1635542,
+                "sha256": "51bcd4f0c168ca6689a6c8289bcc4b74f1809a229ada60ccac10aa82519ed4a8"
+              },
+              "generation": "characters/gpt/keyframes/v4-individual/K7.generation.json",
+              "prompts": [
+                "characters/gpt/keyframes/v4-individual/K7.prompt.txt"
+              ]
+            }
+          ]
+        }
       ]
     },
     {
@@ -375,6 +990,128 @@
           "layout_reference": "characters/deepseek/variants/v2-dance/sheet.png",
           "quality_note": "保留八人图的新领口与黑金腰结，不加入初版披肩。",
           "generation": "characters/claude/variants/v2-dance/generation.json"
+        }
+      ],
+      "keyframes": [
+        {
+          "id": "v4-individual",
+          "label": "逐帧精修版",
+          "identity_reference": "characters/claude/keyframes/v4-individual/K1.png",
+          "frames": [
+            {
+              "id": "K1",
+              "seconds": 0.0,
+              "label": "张开双臂",
+              "image": {
+                "path": "characters/claude/keyframes/v4-individual/K1.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1723115,
+                "sha256": "12318fcd05c7a4d96c2589c0b31d96b6ee0577fef467edee00391e7ed0f0c232"
+              },
+              "generation": "characters/claude/keyframes/v4-individual/K1.generation.json",
+              "prompts": [
+                "characters/claude/keyframes/v4-individual/K1.prompt.txt"
+              ]
+            },
+            {
+              "id": "K2",
+              "seconds": 1.0,
+              "label": "侧倾单拳上举",
+              "image": {
+                "path": "characters/claude/keyframes/v4-individual/K2.png",
+                "width": 1671,
+                "height": 941,
+                "bytes": 1726241,
+                "sha256": "ac740a86ea1845378d0c1b0c32ff4aed0cb1ced8b37804a24f1a0636a8cfab88"
+              },
+              "generation": "characters/claude/keyframes/v4-individual/K2.generation.json",
+              "prompts": [
+                "characters/claude/keyframes/v4-individual/K2.prompt.txt"
+              ]
+            },
+            {
+              "id": "K3",
+              "seconds": 1.8,
+              "label": "双拳举头边·偏右",
+              "image": {
+                "path": "characters/claude/keyframes/v4-individual/K3.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1691193,
+                "sha256": "16cc112c9e1288b4f5ad0725795b16a2260a9cf49282f2f17f401e1986ae2760"
+              },
+              "generation": "characters/claude/keyframes/v4-individual/K3.generation.json",
+              "prompts": [
+                "characters/claude/keyframes/v4-individual/K3.prompt.txt"
+              ]
+            },
+            {
+              "id": "K4",
+              "seconds": 2.2,
+              "label": "双拳举头边·偏左",
+              "image": {
+                "path": "characters/claude/keyframes/v4-individual/K4.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1733545,
+                "sha256": "4518a8a7d2138f76521c8c2188164819744f3397452e55b87ac6879177d29376"
+              },
+              "generation": "characters/claude/keyframes/v4-individual/K4.generation.json",
+              "prompts": [
+                "characters/claude/keyframes/v4-individual/K4.prompt.txt"
+              ]
+            },
+            {
+              "id": "K5",
+              "seconds": 3.5,
+              "label": "背对抱臂",
+              "image": {
+                "path": "characters/claude/keyframes/v4-individual/K5.png",
+                "width": 1671,
+                "height": 941,
+                "bytes": 1565373,
+                "sha256": "78995d35d33c5f248654162b88150cc93b935c39e9547ca6d5d2c3032cf91aa6"
+              },
+              "generation": "characters/claude/keyframes/v4-individual/K5.generation.json",
+              "prompts": [
+                "characters/claude/keyframes/v4-individual/K5.prompt.txt"
+              ]
+            },
+            {
+              "id": "K6",
+              "seconds": 4.6,
+              "label": "回头偷看",
+              "image": {
+                "path": "characters/claude/keyframes/v4-individual/K6.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1651015,
+                "sha256": "f1e8cf304c3372b9065985c7a98aa9b9b749d29637842d916fcc83e1d3f0fa12"
+              },
+              "generation": "characters/claude/keyframes/v4-individual/K6.generation.json",
+              "prompts": [
+                "characters/claude/keyframes/v4-individual/K6.prompt.txt",
+                "characters/claude/keyframes/v4-individual/K6.refinement.prompt.txt"
+              ]
+            },
+            {
+              "id": "K7",
+              "seconds": 5.8,
+              "label": "背身手臂过头",
+              "image": {
+                "path": "characters/claude/keyframes/v4-individual/K7.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1630438,
+                "sha256": "004d372cb2d4dbf08c6fca21493bbe0dd28f86f41721436b9597103e0b0f2d45"
+              },
+              "generation": "characters/claude/keyframes/v4-individual/K7.generation.json",
+              "prompts": [
+                "characters/claude/keyframes/v4-individual/K7.prompt.txt"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -434,6 +1171,128 @@
           "quality_note": "核对异色瞳：正面左粉右金；左侧面可见金色左眼。",
           "generation": "characters/gemini/variants/v2-dance/generation.json"
         }
+      ],
+      "keyframes": [
+        {
+          "id": "v4-individual",
+          "label": "逐帧精修版",
+          "identity_reference": "characters/gemini/keyframes/v4-individual/K1.png",
+          "frames": [
+            {
+              "id": "K1",
+              "seconds": 0.0,
+              "label": "张开双臂",
+              "image": {
+                "path": "characters/gemini/keyframes/v4-individual/K1.png",
+                "width": 1594,
+                "height": 987,
+                "bytes": 1795663,
+                "sha256": "7b79c258c107b066f1f050cf76f8d473a1afad6ffc6426e321fac20b93ef0be0"
+              },
+              "generation": "characters/gemini/keyframes/v4-individual/K1.generation.json",
+              "prompts": [
+                "characters/gemini/keyframes/v4-individual/K1.prompt.txt"
+              ]
+            },
+            {
+              "id": "K2",
+              "seconds": 1.0,
+              "label": "侧倾单拳上举",
+              "image": {
+                "path": "characters/gemini/keyframes/v4-individual/K2.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1763008,
+                "sha256": "0c0a670ac4273fc17c4ee4a000b2b155b75e95014bc0c9549edd0d4b3688186a"
+              },
+              "generation": "characters/gemini/keyframes/v4-individual/K2.generation.json",
+              "prompts": [
+                "characters/gemini/keyframes/v4-individual/K2.prompt.txt"
+              ]
+            },
+            {
+              "id": "K3",
+              "seconds": 1.8,
+              "label": "双拳举头边·偏右",
+              "image": {
+                "path": "characters/gemini/keyframes/v4-individual/K3.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1701984,
+                "sha256": "4632bb73bf210cd9407d01e68952fa8dcb68d4639b16a1332ed84659c0e61de0"
+              },
+              "generation": "characters/gemini/keyframes/v4-individual/K3.generation.json",
+              "prompts": [
+                "characters/gemini/keyframes/v4-individual/K3.prompt.txt"
+              ]
+            },
+            {
+              "id": "K4",
+              "seconds": 2.2,
+              "label": "双拳举头边·偏左",
+              "image": {
+                "path": "characters/gemini/keyframes/v4-individual/K4.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1724663,
+                "sha256": "7b9e6d55a1925be3080e71a3fbc2d2636ae298d9706ecc6a7539bb138ea1c21c"
+              },
+              "generation": "characters/gemini/keyframes/v4-individual/K4.generation.json",
+              "prompts": [
+                "characters/gemini/keyframes/v4-individual/K4.prompt.txt"
+              ]
+            },
+            {
+              "id": "K5",
+              "seconds": 3.5,
+              "label": "背对抱臂",
+              "image": {
+                "path": "characters/gemini/keyframes/v4-individual/K5.png",
+                "width": 1671,
+                "height": 941,
+                "bytes": 1621286,
+                "sha256": "4ed2f56558f6ab8db9c81fd9350ed02cf1c0e3de8ae29d80c91e6593f3d9d826"
+              },
+              "generation": "characters/gemini/keyframes/v4-individual/K5.generation.json",
+              "prompts": [
+                "characters/gemini/keyframes/v4-individual/K5.prompt.txt"
+              ]
+            },
+            {
+              "id": "K6",
+              "seconds": 4.6,
+              "label": "回头偷看",
+              "image": {
+                "path": "characters/gemini/keyframes/v4-individual/K6.png",
+                "width": 1671,
+                "height": 941,
+                "bytes": 1711372,
+                "sha256": "6dae573fb8511a04e8b5c0f9d41231a979fdbcd0db254a41244ee07b88e819b1"
+              },
+              "generation": "characters/gemini/keyframes/v4-individual/K6.generation.json",
+              "prompts": [
+                "characters/gemini/keyframes/v4-individual/K6.prompt.txt"
+              ]
+            },
+            {
+              "id": "K7",
+              "seconds": 5.8,
+              "label": "背身手臂过头",
+              "image": {
+                "path": "characters/gemini/keyframes/v4-individual/K7.png",
+                "width": 1671,
+                "height": 941,
+                "bytes": 1758504,
+                "sha256": "bac301fd1e207455df5453ad5970c75364db8d00d3eba7d9cd9e7431f309d66f"
+              },
+              "generation": "characters/gemini/keyframes/v4-individual/K7.generation.json",
+              "prompts": [
+                "characters/gemini/keyframes/v4-individual/K7.prompt.txt",
+                "characters/gemini/keyframes/v4-individual/K7.refinement.prompt.txt"
+              ]
+            }
+          ]
+        }
       ]
     },
     {
@@ -490,7 +1349,183 @@
           "layout_reference": "characters/deepseek/variants/v2-dance/sheet.png",
           "generation": "characters/grok/variants/v2-dance/generation.json"
         }
+      ],
+      "keyframes": [
+        {
+          "id": "v4-individual",
+          "label": "逐帧精修版",
+          "identity_reference": "characters/grok/keyframes/v4-individual/K1.png",
+          "frames": [
+            {
+              "id": "K1",
+              "seconds": 0.0,
+              "label": "张开双臂",
+              "image": {
+                "path": "characters/grok/keyframes/v4-individual/K1.png",
+                "width": 1593,
+                "height": 987,
+                "bytes": 1819063,
+                "sha256": "8ddfe02ab419e9cf291db67ec4014434c5231149767cf8580843b416516840ca"
+              },
+              "generation": "characters/grok/keyframes/v4-individual/K1.generation.json",
+              "prompts": [
+                "characters/grok/keyframes/v4-individual/K1.prompt.txt"
+              ]
+            },
+            {
+              "id": "K2",
+              "seconds": 1.0,
+              "label": "侧倾单拳上举",
+              "image": {
+                "path": "characters/grok/keyframes/v4-individual/K2.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1754866,
+                "sha256": "981b5cb65b8987c98d83e2377e2f3129849a06b27725481c945e525863696994"
+              },
+              "generation": "characters/grok/keyframes/v4-individual/K2.generation.json",
+              "prompts": [
+                "characters/grok/keyframes/v4-individual/K2.prompt.txt"
+              ]
+            },
+            {
+              "id": "K3",
+              "seconds": 1.8,
+              "label": "双拳举头边·偏右",
+              "image": {
+                "path": "characters/grok/keyframes/v4-individual/K3.png",
+                "width": 1671,
+                "height": 941,
+                "bytes": 1790954,
+                "sha256": "6124ff8029ac709b1a0f28ac74a481267093c7e6856cc1b627f64d0cc5a4c9ea"
+              },
+              "generation": "characters/grok/keyframes/v4-individual/K3.generation.json",
+              "prompts": [
+                "characters/grok/keyframes/v4-individual/K3.prompt.txt"
+              ]
+            },
+            {
+              "id": "K4",
+              "seconds": 2.2,
+              "label": "双拳举头边·偏左",
+              "image": {
+                "path": "characters/grok/keyframes/v4-individual/K4.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1742872,
+                "sha256": "4b92427ac1d9aa816f1807ed8c961b0165c0303913b93c6787ddb44d5a5a29de"
+              },
+              "generation": "characters/grok/keyframes/v4-individual/K4.generation.json",
+              "prompts": [
+                "characters/grok/keyframes/v4-individual/K4.prompt.txt"
+              ]
+            },
+            {
+              "id": "K5",
+              "seconds": 3.5,
+              "label": "背对抱臂",
+              "image": {
+                "path": "characters/grok/keyframes/v4-individual/K5.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1623200,
+                "sha256": "1ef380c4487e715fbc308b0a17c50f7d2484a79e9610741656d2ee5e53aefff7"
+              },
+              "generation": "characters/grok/keyframes/v4-individual/K5.generation.json",
+              "prompts": [
+                "characters/grok/keyframes/v4-individual/K5.prompt.txt"
+              ]
+            },
+            {
+              "id": "K6",
+              "seconds": 4.6,
+              "label": "回头偷看",
+              "image": {
+                "path": "characters/grok/keyframes/v4-individual/K6.png",
+                "width": 1672,
+                "height": 941,
+                "bytes": 1690723,
+                "sha256": "60595bf8f710ba82fa99d340cbefb1e08edea26b7eb096b513e0e3f746f0b7cc"
+              },
+              "generation": "characters/grok/keyframes/v4-individual/K6.generation.json",
+              "prompts": [
+                "characters/grok/keyframes/v4-individual/K6.prompt.txt"
+              ]
+            },
+            {
+              "id": "K7",
+              "seconds": 5.8,
+              "label": "背身手臂过头",
+              "image": {
+                "path": "characters/grok/keyframes/v4-individual/K7.png",
+                "width": 1670,
+                "height": 941,
+                "bytes": 1747100,
+                "sha256": "79d2228cb0b3e34080ead3d4b2739dec2e80304e53e2b58fcb528c12a2f38fc9"
+              },
+              "generation": "characters/grok/keyframes/v4-individual/K7.generation.json",
+              "prompts": [
+                "characters/grok/keyframes/v4-individual/K7.prompt.txt",
+                "characters/grok/keyframes/v4-individual/K7.refinement.prompt.txt"
+              ]
+            }
+          ]
+        }
       ]
     }
-  ]
+  ],
+  "keyframe_series": {
+    "id": "v4-individual",
+    "label": "逐帧精修版",
+    "kind": "individual-frames",
+    "character_count": 8,
+    "image_count": 56,
+    "loop_seconds": 6.9,
+    "frames": [
+      {
+        "id": "K1",
+        "seconds": 0.0,
+        "label": "张开双臂",
+        "focus": "近手更大更低，远手后收"
+      },
+      {
+        "id": "K2",
+        "seconds": 1.0,
+        "label": "侧倾单拳上举",
+        "focus": "近拳高、远手低，身体侧倾"
+      },
+      {
+        "id": "K3",
+        "seconds": 1.8,
+        "label": "双拳举头边·偏右",
+        "focus": "腰胯右偏，远拳大半被头遮挡"
+      },
+      {
+        "id": "K4",
+        "seconds": 2.2,
+        "label": "双拳举头边·偏左",
+        "focus": "相反视角，近右拳高、远左拳低"
+      },
+      {
+        "id": "K5",
+        "seconds": 3.5,
+        "label": "背对抱臂",
+        "focus": "前倾与臀胯后移，腿不交叉"
+      },
+      {
+        "id": "K6",
+        "seconds": 4.6,
+        "label": "回头偷看",
+        "focus": "背身前倾，只露一只眼"
+      },
+      {
+        "id": "K7",
+        "seconds": 5.8,
+        "label": "背身手臂过头",
+        "focus": "前臂遮脸，仅露极少眼部"
+      }
+    ],
+    "framing": "Original upper-thigh crop; feet are outside frame, not invented.",
+    "workflow": "One frame generated and visually reviewed before the next; selected refinements preserved."
+  }
 }

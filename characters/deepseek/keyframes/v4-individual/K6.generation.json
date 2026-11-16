@@ -1,0 +1,36 @@
+{
+  "frame": "K6",
+  "seconds": 4.6,
+  "date": "2026-11-16",
+  "tool": "image_gen.imagegen (built-in)",
+  "model_version": "not exposed by tool",
+  "identity_master": "characters/deepseek/keyframes/v4-individual/K1.png",
+  "pose_reference": "Original user-provided K6 crop, retained locally",
+  "output": {
+    "path": "characters/deepseek/keyframes/v4-individual/K6.png",
+    "width": 1672,
+    "height": 941,
+    "bytes": 1555553,
+    "sha256": "ecb75047087c1a4ae9fa99440d0f0eb62009d9330a53605b31faa7e3a92d78f8"
+  },
+  "prompts": [
+    "K6.prompt.txt",
+    "K6.refinement.prompt.txt"
+  ],
+  "review": {
+    "reviewer": "Codex visual comparison",
+    "checks": [
+      "rear-three-quarter torso with forward hip hinge",
+      "single visible eye in narrow face wedge, far eye hidden",
+      "near hand below/left of eye and far arm occluded",
+      "approved hair/eye/costume identity and rear apron bow",
+      "one low tail under skirt hem",
+      "original downward cropped thigh directions, no added foot action"
+    ],
+    "limitation": "Visual matching, not pixel-exact tracing or measured motion capture.",
+    "notes": "rear-three-quarter torso with forward hip hinge; single visible eye in narrow face wedge, far eye hidden; near hand below/left of eye and far arm occluded; approved hair/eye/costume identity and rear apron bow; one low tail under skirt hem; original downward cropped thigh directions, no added foot action"
+  },
+  "pose_template": "Original user-provided corresponding frame; local only.",
+  "turnaround_reference": "characters/deepseek/variants/v2-dance/sheet.png",
+  "character": "deepseek"
+}

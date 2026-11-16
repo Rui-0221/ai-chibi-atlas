@@ -1,0 +1,37 @@
+{
+  "character": "grok",
+  "frame": "K7",
+  "seconds": 5.8,
+  "date": "2026-11-16",
+  "tool": "image_gen.imagegen (built-in)",
+  "model_version": "not exposed by tool",
+  "identity_master": "characters/grok/keyframes/v4-individual/K1.png",
+  "pose_reference": "Original user-provided matching frame crop; retained locally and not redistributed.",
+  "output": {
+    "path": "characters/grok/keyframes/v4-individual/K7.png",
+    "width": 1670,
+    "height": 941,
+    "bytes": 1747100,
+    "sha256": "79d2228cb0b3e34080ead3d4b2739dec2e80304e53e2b58fcb528c12a2f38fc9"
+  },
+  "prompts": [
+    "K7.prompt.txt",
+    "K7.refinement.prompt.txt"
+  ],
+  "review": {
+    "reviewer": "Codex visual comparison",
+    "notes": "K7 eye tiny blue sliver above compact crossing forearm, own twin ponytails/crown and thigh directions retained. Refined misplaced lower-right far wing into natural occlusion matching K6; near upper-back wing remains, no waist wing or tail.",
+    "scope": [
+      "matching original pose/viewpoint/occlusion",
+      "same own-character identity and style",
+      "compact connected rounded arms/hands",
+      "source crop and visible thigh directions",
+      "no added raised knee or crossed-leg step",
+      "own tail/wing/accessory anatomy"
+    ],
+    "limitation": "Visual comparison; no pixel-exact tracing or motion-capture guarantee."
+  },
+  "pose_template": "characters/deepseek/keyframes/v4-individual/K7.png",
+  "turnaround_reference": "characters/grok/variants/v2-dance/sheet.png",
+  "prior_frame_reference": "characters/grok/keyframes/v4-individual/K6.png"
+}

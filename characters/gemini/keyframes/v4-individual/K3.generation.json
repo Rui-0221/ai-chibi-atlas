@@ -1,0 +1,35 @@
+{
+  "character": "gemini",
+  "frame": "K3",
+  "seconds": 1.8,
+  "date": "2026-11-16",
+  "tool": "image_gen.imagegen (built-in)",
+  "model_version": "not exposed by tool",
+  "identity_master": "characters/gemini/keyframes/v4-individual/K1.png",
+  "pose_reference": "Original user-provided matching frame crop; retained locally and not redistributed.",
+  "output": {
+    "path": "characters/gemini/keyframes/v4-individual/K3.png",
+    "width": 1672,
+    "height": 941,
+    "bytes": 1701984,
+    "sha256": "4632bb73bf210cd9407d01e68952fa8dcb68d4639b16a1332ed84659c0e61de0"
+  },
+  "prompts": [
+    "K3.prompt.txt"
+  ],
+  "review": {
+    "reviewer": "Codex visual comparison",
+    "notes": "K3 original right-biased hip sway checked, near left fist prominent, far right only small crescent behind head. Anatomical magenta/gold eyes correct, purple sleeve drape and single fluffy tail distinct from anatomy; both thighs down and separate.",
+    "scope": [
+      "matching original pose/viewpoint/occlusion",
+      "same own-character identity and style",
+      "compact connected rounded arms/hands",
+      "source crop and visible thigh directions",
+      "no added raised knee or crossed-leg step",
+      "own tail/wing/accessory anatomy"
+    ],
+    "limitation": "Visual comparison; no pixel-exact tracing or motion-capture guarantee."
+  },
+  "pose_template": "characters/deepseek/keyframes/v4-individual/K3.png",
+  "turnaround_reference": "characters/gemini/variants/v2-dance/sheet.png"
+}

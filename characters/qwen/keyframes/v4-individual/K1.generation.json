@@ -1,0 +1,35 @@
+{
+  "character": "qwen",
+  "frame": "K1",
+  "seconds": 0.0,
+  "date": "2026-11-16",
+  "tool": "image_gen.imagegen (built-in)",
+  "model_version": "not exposed by tool",
+  "identity_master": "characters/qwen/variants/v2-dance/sheet.png",
+  "pose_reference": "Original user-provided matching frame crop; retained locally and not redistributed.",
+  "output": {
+    "path": "characters/qwen/keyframes/v4-individual/K1.png",
+    "width": 1593,
+    "height": 987,
+    "bytes": 1707290,
+    "sha256": "14eb9833734585bca7312fc60ec8b2ca3cd0cf1b87a5b3c0194ccd689ae5c531"
+  },
+  "prompts": [
+    "K1.prompt.txt"
+  ],
+  "review": {
+    "reviewer": "Codex visual comparison",
+    "notes": "Compared own turnaround, approved DeepSeek K1, and original K1 crop. Lavender braid/cap and gold outfit retained; nearer viewer-left round hand larger/lower and far viewer-right hand smaller/receding. Compact arms and upper-thigh framing retained; no animal features.",
+    "scope": [
+      "matching original pose/viewpoint/occlusion",
+      "same own-character identity and style",
+      "compact connected rounded arms/hands",
+      "source crop and visible thigh directions",
+      "no added raised knee or crossed-leg step",
+      "own tail/wing/accessory anatomy"
+    ],
+    "limitation": "Visual comparison; no pixel-exact tracing or motion-capture guarantee."
+  },
+  "pose_template": "characters/deepseek/keyframes/v4-individual/K1.png",
+  "turnaround_reference": "characters/qwen/variants/v2-dance/sheet.png"
+}

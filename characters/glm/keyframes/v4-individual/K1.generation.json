@@ -1,0 +1,35 @@
+{
+  "character": "glm",
+  "frame": "K1",
+  "seconds": 0.0,
+  "date": "2026-11-16",
+  "tool": "image_gen.imagegen (built-in)",
+  "model_version": "not exposed by tool",
+  "identity_master": "characters/glm/variants/v2-dance/sheet.png",
+  "pose_reference": "Original user-provided matching frame crop; retained locally and not redistributed.",
+  "output": {
+    "path": "characters/glm/keyframes/v4-individual/K1.png",
+    "width": 1593,
+    "height": 987,
+    "bytes": 1683468,
+    "sha256": "169f8c7c36d62cb377037e7ca78aa2c246c5b8071438af3f22d909db7aea5b04"
+  },
+  "prompts": [
+    "K1.prompt.txt"
+  ],
+  "review": {
+    "reviewer": "Codex visual comparison",
+    "notes": "GLM K1 compared own turnaround: charcoal hair, muted purple eyes, square Z front viewer-right, white strapped sleeves and book charm retained. Larger/lower near left round hand and smaller recessed far right hand match approved K1, calm closed smile.",
+    "scope": [
+      "matching original pose/viewpoint/occlusion",
+      "same own-character identity and style",
+      "compact connected rounded arms/hands",
+      "source crop and visible thigh directions",
+      "no added raised knee or crossed-leg step",
+      "own tail/wing/accessory anatomy"
+    ],
+    "limitation": "Visual comparison; no pixel-exact tracing or motion-capture guarantee."
+  },
+  "pose_template": "characters/deepseek/keyframes/v4-individual/K1.png",
+  "turnaround_reference": "characters/glm/variants/v2-dance/sheet.png"
+}

@@ -1,0 +1,35 @@
+{
+  "character": "grok",
+  "frame": "K5",
+  "seconds": 3.5,
+  "date": "2026-11-16",
+  "tool": "image_gen.imagegen (built-in)",
+  "model_version": "not exposed by tool",
+  "identity_master": "characters/grok/keyframes/v4-individual/K1.png",
+  "pose_reference": "Original user-provided matching frame crop; retained locally and not redistributed.",
+  "output": {
+    "path": "characters/grok/keyframes/v4-individual/K5.png",
+    "width": 1672,
+    "height": 941,
+    "bytes": 1623200,
+    "sha256": "1ef380c4487e715fbc308b0a17c50f7d2484a79e9610741656d2ee5e53aefff7"
+  },
+  "prompts": [
+    "K5.prompt.txt"
+  ],
+  "review": {
+    "reviewer": "Codex visual comparison",
+    "notes": "K5 back-left folded-arm pose with eye hidden and pelvis back/right checked. Own swept rear scalp/two ponytails preserved, exactly two small upper-back wings, no tail; separate down-going legs in own dark stockings, no crossing/lift.",
+    "scope": [
+      "matching original pose/viewpoint/occlusion",
+      "same own-character identity and style",
+      "compact connected rounded arms/hands",
+      "source crop and visible thigh directions",
+      "no added raised knee or crossed-leg step",
+      "own tail/wing/accessory anatomy"
+    ],
+    "limitation": "Visual comparison; no pixel-exact tracing or motion-capture guarantee."
+  },
+  "pose_template": "characters/deepseek/keyframes/v4-individual/K5.png",
+  "turnaround_reference": "characters/grok/variants/v2-dance/sheet.png"
+}

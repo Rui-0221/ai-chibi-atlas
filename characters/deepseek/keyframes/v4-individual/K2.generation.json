@@ -1,0 +1,35 @@
+{
+  "frame": "K2",
+  "seconds": 1.0,
+  "tool": "image_gen.imagegen (built-in)",
+  "date": "2026-11-16",
+  "model_version": "not exposed by tool",
+  "identity_master": "characters/deepseek/keyframes/v4-individual/K1.png",
+  "pose_reference": "Original user-provided K2 crop, retained locally",
+  "output": {
+    "path": "characters/deepseek/keyframes/v4-individual/K2.png",
+    "width": 1672,
+    "height": 941,
+    "bytes": 1564818,
+    "sha256": "ad03c0802c05187d45e31c9fba856bc55279e569d738186ee52cec7663352fcc"
+  },
+  "prompts": [
+    "K2.prompt.txt",
+    "K2.refinement.prompt.txt"
+  ],
+  "review": {
+    "reviewer": "Codex visual comparison",
+    "checks": [
+      "identity matches approved K1",
+      "strong torso lean with pelvis left of head",
+      "near fist raised, far fist low behind silhouette",
+      "compact arm proportions and elbow connections",
+      "same original thigh crop, no added foot motion"
+    ],
+    "limitations": "Visual pose matching, not a pixel-exact replica.",
+    "notes": "identity matches approved K1; strong torso lean with pelvis left of head; near fist raised, far fist low behind silhouette; compact arm proportions and elbow connections; same original thigh crop, no added foot motion"
+  },
+  "pose_template": "Original user-provided corresponding frame; local only.",
+  "turnaround_reference": "characters/deepseek/variants/v2-dance/sheet.png",
+  "character": "deepseek"
+}

@@ -1,5 +1,6 @@
 from pathlib import Path
 import html, json
+from keyframe_docs import character_frames, keyframe_index
 
 ROOT = Path(__file__).resolve().parents[1]
 data = json.loads((ROOT/"catalog.json").read_text(encoding="utf-8"))
@@ -13,11 +14,22 @@ for c in data["characters"]:
     v = next(v for v in c["variants"] if v["id"] == c["featured_variant"])
     thumbs.append('<td align="center"><a href="characters/{id}/"><img src="{path}" width="480" alt="{name}参考图匹配版三视图"></a><br><b>{name}</b> · {count} 个版本<br><a href="characters/{id}/">角色档案</a> · <a href="{path}">完整 PNG</a></td>'.format(id=c["id"], path=v["image"]["path"], name=html.escape(c["name"]), count=len(c["variants"])))
 grid = "<table>\n" + "\n".join("<tr>" + "".join(thumbs[i:i+2]) + "</tr>" for i in range(0,len(thumbs),2)) + "\n</table>"
+keyframe_intro = ""
+if data.get("keyframe_series"):
+    keyframe_intro = """## 动作关键帧
+
+新增 **56 张独立动作关键帧**，八位角色各七张，每一帧单独生成、比较与修正。小圆手与紧凑手臂保留近远透视；K3／K4 腿向下、转腰摆胯，K5 不交叉腿。沿用原参考的大腿附近裁切，不补画画面外脚部。6.90s 回到 K1 循环。
+
+[逐帧浏览页](keyframes/index.html) · [八位角色的关键帧与动作说明](keyframes/README.md)。三视图仍单独保留，关键帧不计入 17 套三视图数量。
+
+<img src="docs/keyframes-preview.png" width="1100" alt="独立关键帧浏览页实际预览">
+
+"""
 readme = """# AI Chibi Atlas · AI 娘三视图图鉴
 
-8 位女性 Q 版 AI 拟人角色，17 套三视图。每位角色独立归档，保留多个衣装／表情版本；当前主系列根据同一张八人参考图制作。
+8 位女性 Q 版 AI 拟人角色，17 套三视图，另有 56 张独立动作关键帧。每位角色独立归档，保留多个衣装／表情版本；当前主系列根据同一张八人参考图制作。
 
-*A multi-version fan character turnaround collection: 8 AI characters, 17 sheets, front / left side / back.*
+*A multi-version fan character turnaround collection: 8 AI characters, 17 turnaround sheets and 56 individual dance keyframes.*
 
 [角色图鉴](#角色图鉴) · [制作记录](docs/WORKFLOW.md) · [来源署名](ATTRIBUTION.md) · [图片许可](ASSET-LICENSES.md) · [上传与展示](docs/PUBLISHING.md)
 
@@ -35,11 +47,13 @@ readme = """# AI Chibi Atlas · AI 娘三视图图鉴
 
 {grid}
 
+{keyframe_intro}
 ## 版本与目录
 
 - `v1-initial`：八位角色的初版。保留原始文件字节。
 - `v1-natural-smile`：GPT 初版的自然微笑修订。
-- `v2-dance`：八位角色按共同参考图制作的新系列，默认展示。
+- `v2-dance`：八位角色按共同参考图制作的三视图系列，默认展示。
+- `keyframes/v4-individual`：每位角色各七张独立动作关键帧，附逐帧提示词与修正记录。
 
 ```text
 characters/
@@ -53,6 +67,10 @@ characters/
         sheet.png
         prompt.txt
         generation.json
+    keyframes/v4-individual/
+      K1.png ... K7.png
+      K1.prompt.txt ... K7.prompt.txt
+      K1.generation.json ... K7.generation.json
   qwen/  kimi/  glm/  gpt/  claude/  gemini/  grok/
 references/dance-reference-board.png
 catalog.json
@@ -86,7 +104,7 @@ python scripts/verify.py
 - [疚刃《若不是你突然闯进我生活》](https://www.bilibili.com/video/BV16Vap6yEGP/)：基础神态与舞蹈表现方向参考。
 
 DeepSeek 设计含非商业与相同方式共享要求；GPT 变体的原作者与授权未明；其余条目保留上游的分享／再创作说明，不擅自补成统一标准许可证。详情见 [署名](ATTRIBUTION.md)、[图片许可](ASSET-LICENSES.md) 和逐角色 provenance.json。代码的 MIT 许可不涵盖图片或角色权利。
-""".format(grid=grid)
+""".format(grid=grid, keyframe_intro=keyframe_intro)
 (ROOT/"README.md").write_text(readme, encoding="utf-8", newline="\n")
 
 attribution = ["# 来源与署名", "", "图片权利以原始来源为准。以下记录不把整理者推断成原作者，也不把 AI 衍生当作新增授权。", ""]
@@ -97,12 +115,14 @@ for c in data["characters"]:
     source_url = provenance["source_repository"]
     original_url = provenance["upstream_page"]
     variants = "\n".join(f"| [{v['label']}](variants/{v['id']}/) | {v['image']['width']} × {v['image']['height']} | [{v['id']}](variants/{v['id']}/sheet.png) |" for v in c["variants"])
+    keyframe_section = character_frames(ROOT, c)
     character_readme = f"""# {title}
 
 {c['description']}。所属模型／产品：{c['organization']}；社区女性拟人形象。
 
 ![{title}当前系列三视图](variants/{c['featured_variant']}/sheet.png)
 
+{keyframe_section}
 ## 版本
 
 | 版本 | 图像尺寸 | PNG |
@@ -133,6 +153,8 @@ for c in data["characters"]:
         parts += ["[角色版本目录](../../README.md) · [来源记录](../../provenance.json) · [图片许可](../../../../ASSET-LICENSES.md)",""]
         (ROOT/"characters"/c["id"]/"variants"/v["id"]/"README.md").write_text("\n".join(parts),encoding="utf-8", newline="\n")
     attribution += [f"## {title}","",provenance["upstream_design_credit"],"",f"- [素材仓库]({source_url})",f"- [原始发布／整理来源]({original_url})",f"- 许可状态：`{c['license_status']}`",f"- 许可记录：{provenance['license_record']}",f"- [项目中的逐角色记录]({c['provenance']})",""]
-attribution += ["## 本项目制作与视频参考","","本项目使用内置 imagegen 制作八人表情参考图与衍生三视图，历史图保持原始字节。v2-dance 的细节修正记录与提示词在各版本目录。","", "[ZipZipPipe · Bilibili](https://space.bilibili.com/4168597) · [上善无形 · Bilibili](https://space.bilibili.com/4456176) · [原视频《大AI和小AI们》](https://www.bilibili.com/video/BV1tE9XBbErS/)","", "神态与舞蹈表现方向参考：[疚刃《若不是你突然闯进我生活》](https://www.bilibili.com/video/BV16Vap6yEGP/)。本项目没有附带该视频文件、音乐或帧截图。","", "[上游原始声明](sources/upstream-ai-girls-NOTICE.md) · [图片许可与边界](ASSET-LICENSES.md)",""]
+attribution += ["## 本项目制作与视频参考","","本项目使用内置 imagegen 制作八人表情参考图、衍生三视图与 56 张独立动作关键帧，历史图保持原始字节。v2-dance 的细节修正记录与提示词在各版本目录。","", "[ZipZipPipe · Bilibili](https://space.bilibili.com/4168597) · [上善无形 · Bilibili](https://space.bilibili.com/4456176) · [原视频《大AI和小AI们》](https://www.bilibili.com/video/BV1tE9XBbErS/)","", "神态与舞蹈表现方向参考：[疚刃《若不是你突然闯进我生活》](https://www.bilibili.com/video/BV16Vap6yEGP/)。本项目没有附带该视频文件、音乐或帧截图。","", "[上游原始声明](sources/upstream-ai-girls-NOTICE.md) · [图片许可与边界](ASSET-LICENSES.md)",""]
 (ROOT/"ATTRIBUTION.md").write_text("\n".join(attribution),encoding="utf-8", newline="\n")
+if data.get("keyframe_series"):
+    keyframe_index(ROOT, data)
 print("Generated index.html, root/character/variant READMEs and ATTRIBUTION.md.")

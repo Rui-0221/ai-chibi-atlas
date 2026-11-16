@@ -1,0 +1,18 @@
+Use case: identity-preserve. Draw ONE independent DeepSeek K7 keyframe only. No multi-frame board or collage.
+Image 1 = ORIGINAL K7 crop, 640x360: authoritative pose, forearm overlap, face visibility, head/body placement and crop.
+Image 2 = user-approved DeepSeek K1 master: authoritative exact face/eye design, hair, outfit, cute round hands, bold outline and cel shading.
+Image 3 = already refined DeepSeek K6 individual frame: consistent same rear costume, long blue/cyan hair, rear apron bow and low tail anatomy ONLY. Do not copy K6's hand-by-cheek pose; K7 arm must follow input 1.
+K7 critical shape:
+Back-three-quarter, torso leaning forward/right, head mostly facing away with a downward/side glance. The prominent NEAR NAVY FOREARM runs diagonally across the FRONT/SIDE OF THE HEAD AND FACE toward viewer-right, forming the broad dark sleeve silhouette in original. It is not two fists held separately above the head. Near hand is a small round mitten nub peeking beyond the cuff on the right at about eye/upper-cheek height. Far arm/hand is largely occluded behind head/torso; no extra full visible fist.
+The forearm sleeve HIDES MOST OF THE FACE. At most a tiny sliver of ONE blue eye/eyebrow is visible above the sleeve, like original. Do not expose a full big eye or the whole smiling face. The master eye design stays the same in the small visible part; occlusion, not a new eye model. Mouth mostly hidden. No face turned fully toward camera.
+Keep the arm continuous and anatomically coherent through shoulder, elbow, wrist, with rounded sleeve volume. Use original forearm reach and elbow placement, not an overly shortened fist pasted on cheek or a long thin stretched tube. Sleeve width and angle should closely match original.
+Source-relative anchors on 640x360, uniformly scale:
+head/hair mass center about (389,130);
+tiny visible eye region about (390,173);
+near cuff/hand center about (477,192);
+upper torso/neck region about (318,210);
+pelvis center about (293,300).
+Prominent sleeve silhouette spans roughly from near elbow around (289,237) to cuff around (459,204), covering the lower face. Head lies upper-right of pelvis, not directly above hips. Match original degree of forward lean rather than a different dramatic pose.
+Both cropped upper legs descend from separate hip joints down/right like source; no knee raise, hopping, crossing or added foot pose. Same original upper-body/upper-thigh crop and apparent character scale. Do not zoom out to full body or invent feet.
+Exact DeepSeek model from approved K1: long cobalt hair fading cyan, chunky bangs and broad blue/white whale-fin side locks, curved blue ahoge, white frill maid headband and blue side bows, navy/white puff-sleeve maid dress, ruffled white cuffs, gold buttons/trim, layered navy/white skirt. Back white apron bow as K6. Long hair trails behind toward screen-left while leaving the raised forearm/head overlap readable, retain same length/masses. ONE blue whale tail from low pelvis UNDER rear skirt hem, never from shoulder/waist/arm. Brown round source object is rabbit tail, not a hand; do not copy it.
+Same thick clean dark outline and controlled cel shading as approved master, pale mint background, landscape 16:9, black heading strip with exact white text "K7 背身手臂过头 5.80s". No extra visible face/eye, full frontal smile, extra fists, fingers, rabbit traits, redesigned outfit or different character style.

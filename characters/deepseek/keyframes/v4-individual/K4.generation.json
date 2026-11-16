@@ -1,0 +1,36 @@
+{
+  "frame": "K4",
+  "seconds": 2.2,
+  "date": "2026-11-16",
+  "tool": "image_gen.imagegen (built-in)",
+  "model_version": "not exposed by tool",
+  "identity_master": "characters/deepseek/keyframes/v4-individual/K1.png",
+  "pose_reference": "Original user-provided K4 crop, retained locally",
+  "output": {
+    "path": "characters/deepseek/keyframes/v4-individual/K4.png",
+    "width": 1672,
+    "height": 941,
+    "bytes": 1721683,
+    "sha256": "1dc610ee2f1e24ee7f2570eb44ad751b189820e71123a99e306a23051437272b"
+  },
+  "prompts": [
+    "K4.prompt.txt",
+    "K4.refinement.prompt.txt"
+  ],
+  "review": {
+    "reviewer": "Codex visual comparison",
+    "checks": [
+      "same master identity",
+      "head left of pelvis, opposite hip-twist viewpoint",
+      "near right hand visible, far left hand partly occluded",
+      "head tilt reduced toward original",
+      "upper thighs down and not crossed",
+      "original crop"
+    ],
+    "limitation": "Visual pose comparison, no pixel-exact or measured-angle guarantee.",
+    "notes": "same master identity; head left of pelvis, opposite hip-twist viewpoint; near right hand visible, far left hand partly occluded; head tilt reduced toward original; upper thighs down and not crossed; original crop"
+  },
+  "pose_template": "Original user-provided corresponding frame; local only.",
+  "turnaround_reference": "characters/deepseek/variants/v2-dance/sheet.png",
+  "character": "deepseek"
+}

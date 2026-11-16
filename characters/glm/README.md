@@ -4,6 +4,15 @@
 
 ![智谱 GLM当前系列三视图](variants/v2-dance/sheet.png)
 
+## 独立动作关键帧
+
+![智谱 GLM K1](keyframes/v4-individual/K1.png)
+
+每一帧单独生成、对照与修正，共七张。保留小圆手与紧凑手臂；K3／K4 是腰胯转动，K5 双腿不交叉。
+
+[逐帧浏览与制作记录](keyframes/v4-individual/README.md) · [独立帧浏览页](../../keyframes/index.html#glm)
+
+
 ## 版本
 
 | 版本 | 图像尺寸 | PNG |

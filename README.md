@@ -1,8 +1,8 @@
 # AI Chibi Atlas · AI 娘三视图图鉴
 
-8 位女性 Q 版 AI 拟人角色，17 套三视图。每位角色独立归档，保留多个衣装／表情版本；当前主系列根据同一张八人参考图制作。
+8 位女性 Q 版 AI 拟人角色，17 套三视图，另有 56 张独立动作关键帧。每位角色独立归档，保留多个衣装／表情版本；当前主系列根据同一张八人参考图制作。
 
-*A multi-version fan character turnaround collection: 8 AI characters, 17 sheets, front / left side / back.*
+*A multi-version fan character turnaround collection: 8 AI characters, 17 turnaround sheets and 56 individual dance keyframes.*
 
 [角色图鉴](#角色图鉴) · [制作记录](docs/WORKFLOW.md) · [来源署名](ATTRIBUTION.md) · [图片许可](ASSET-LICENSES.md) · [上传与展示](docs/PUBLISHING.md)
 
@@ -25,11 +25,21 @@
 <tr><td align="center"><a href="characters/gemini/"><img src="characters/gemini/variants/v2-dance/sheet.png" width="480" alt="Gemini参考图匹配版三视图"></a><br><b>Gemini</b> · 2 个版本<br><a href="characters/gemini/">角色档案</a> · <a href="characters/gemini/variants/v2-dance/sheet.png">完整 PNG</a></td><td align="center"><a href="characters/grok/"><img src="characters/grok/variants/v2-dance/sheet.png" width="480" alt="Grok参考图匹配版三视图"></a><br><b>Grok</b> · 2 个版本<br><a href="characters/grok/">角色档案</a> · <a href="characters/grok/variants/v2-dance/sheet.png">完整 PNG</a></td></tr>
 </table>
 
+## 动作关键帧
+
+新增 **56 张独立动作关键帧**，八位角色各七张，每一帧单独生成、比较与修正。小圆手与紧凑手臂保留近远透视；K3／K4 腿向下、转腰摆胯，K5 不交叉腿。沿用原参考的大腿附近裁切，不补画画面外脚部。6.90s 回到 K1 循环。
+
+[逐帧浏览页](keyframes/index.html) · [八位角色的关键帧与动作说明](keyframes/README.md)。三视图仍单独保留，关键帧不计入 17 套三视图数量。
+
+<img src="docs/keyframes-preview.png" width="1100" alt="独立关键帧浏览页实际预览">
+
+
 ## 版本与目录
 
 - `v1-initial`：八位角色的初版。保留原始文件字节。
 - `v1-natural-smile`：GPT 初版的自然微笑修订。
-- `v2-dance`：八位角色按共同参考图制作的新系列，默认展示。
+- `v2-dance`：八位角色按共同参考图制作的三视图系列，默认展示。
+- `keyframes/v4-individual`：每位角色各七张独立动作关键帧，附逐帧提示词与修正记录。
 
 ```text
 characters/
@@ -43,6 +53,10 @@ characters/
         sheet.png
         prompt.txt
         generation.json
+    keyframes/v4-individual/
+      K1.png ... K7.png
+      K1.prompt.txt ... K7.prompt.txt
+      K1.generation.json ... K7.generation.json
   qwen/  kimi/  glm/  gpt/  claude/  gemini/  grok/
 references/dance-reference-board.png
 catalog.json

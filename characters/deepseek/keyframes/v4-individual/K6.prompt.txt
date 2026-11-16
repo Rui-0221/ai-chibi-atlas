@@ -1,0 +1,16 @@
+Use case: identity-preserve. Draw ONE independent DeepSeek K6 keyframe, not a sheet or collage.
+Image 1 is ORIGINAL K6 crop 640x360. It controls exact head/body/hand geometry, rear-three-quarter camera angle, eye visibility, torso bend and crop. Image 2 is the approved DeepSeek K1 master, controls SAME character appearance and drawing style. Image 3 is DeepSeek turnaround for rear hair/costume/apron-bow structure only, not an alternative style.
+K6 is a BACK-THREE-QUARTER forward lean with a SMALL peek back, not a front-facing smile:
+Pelvis stays toward lower-left and head moves upper-right. The shoulders/neck lean strongly forward toward screen-right as source. Show the BACK/side of torso and hip, not the front whale apron facing camera. Head is pitched slightly DOWN and turned only enough to reveal ONE large near eye in a narrow side-facing face wedge. The other eye remains HIDDEN by head/hair perspective. Do not turn the face fully toward camera or show two symmetric eyes. Preserve the master eye design in the single visible eye. Tiny closed mouth only if visible; do not force the whole mouth/face out of the occlusion.
+A compact near navy puff sleeve/forearm is foreshortened toward camera; its round hand sits near LOWER CHEEK / UPPER CHEST, slightly to the left and below the visible eye. The far arm/hand is occluded by torso/head, no extra visible fist. Hand attached through a plausible short elbow/wrist, not a circle stuck on the face.
+Source-relative anchors on 640x360, scale uniformly:
+head/hair mass center about (400,125);
+visible eye center about (423,196);
+neck/upper shoulder about (349,190);
+near hand center about (393,240);
+pelvis center about (290,282).
+Match this strong diagonal from hip lower-left to shoulders/head upper-right, the downward head pitch and near-hand/eye spacing. Do not straighten the spine or lift the face.
+Original two visible upper legs descend roughly down/right from their own hip joints, partly overlapped by perspective, but NOT crossed, kicked or lifted. Preserve source cropped thighs/lower-leg portions; do not zoom out or add feet.
+Exact DeepSeek identity/style from image 2: cobalt long hair fading cyan at ends, thick curved ahoge, white frill maid headband and blue bows, broad blue/white whale-fin side locks; same huge blue/cyan eye/highlights, rounded cheek and blush; same navy puff sleeves and white ruffled cuffs, layered navy/white maid dress with gold trim. Rear white apron bow and back skirt as image 3. Keep the front whale apron on FRONT, not pasted on the back.
+Long hair trails behind toward viewer-left and away from the near forearm so the peek gesture and turned waist remain readable, retaining the master hair length and masses. Exactly ONE blue whale tail attached LOW under rear skirt hem, optionally curling behind toward viewer-left; not from waist, shoulder, hair or cuff. The brown round rabbit-tail shape in source is not a human hand and must not be copied.
+Same thick clean dark outline and controlled flat/cel shading, not a different glossy doll design. Mint background, same original 16:9 crop/character scale, black header with exact white text "K6 回头偷看 4.60s". No full frontal face, second visible eye, extra fists/limbs, separate fingers, rabbit features, lifted leg or redesigned outfit.

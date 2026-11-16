@@ -1,0 +1,36 @@
+{
+  "character": "gpt",
+  "frame": "K5",
+  "seconds": 3.5,
+  "date": "2026-11-16",
+  "tool": "image_gen.imagegen (built-in)",
+  "model_version": "not exposed by tool",
+  "identity_master": "characters/gpt/keyframes/v4-individual/K1.png",
+  "pose_reference": "Original user-provided matching frame crop; retained locally and not redistributed.",
+  "output": {
+    "path": "characters/gpt/keyframes/v4-individual/K5.png",
+    "width": 1672,
+    "height": 941,
+    "bytes": 1568995,
+    "sha256": "1ccf804292fe182a2fbbb41a6835fed54199fb5233c8f9870d0730e8f6d518d6"
+  },
+  "prompts": [
+    "K5.prompt.txt",
+    "K5.refinement.prompt.txt"
+  ],
+  "review": {
+    "reviewer": "Codex visual comparison",
+    "notes": "K5 folded rear pose and uncrossed down-going legs retained, no visible eye. Tail-root corrected to emerge under lowest rear skirt hem at buttocks then curve right, one continuous scaled tail separate from two upper-back wings.",
+    "scope": [
+      "matching original pose/viewpoint/occlusion",
+      "same own-character identity and style",
+      "compact connected rounded arms/hands",
+      "source crop and visible thigh directions",
+      "no added raised knee or crossed-leg step",
+      "own tail/wing/accessory anatomy"
+    ],
+    "limitation": "Visual comparison; no pixel-exact tracing or motion-capture guarantee."
+  },
+  "pose_template": "characters/deepseek/keyframes/v4-individual/K5.png",
+  "turnaround_reference": "characters/gpt/variants/v2-dance/sheet.png"
+}

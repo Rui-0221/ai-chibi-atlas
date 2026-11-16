@@ -1,0 +1,35 @@
+{
+  "character": "glm",
+  "frame": "K3",
+  "seconds": 1.8,
+  "date": "2026-11-16",
+  "tool": "image_gen.imagegen (built-in)",
+  "model_version": "not exposed by tool",
+  "identity_master": "characters/glm/keyframes/v4-individual/K1.png",
+  "pose_reference": "Original user-provided matching frame crop; retained locally and not redistributed.",
+  "output": {
+    "path": "characters/glm/keyframes/v4-individual/K3.png",
+    "width": 1672,
+    "height": 941,
+    "bytes": 1629832,
+    "sha256": "11bb97edced897dc4019555638ed137c59e151ba3ed2abc4d0650a331e861dc9"
+  },
+  "prompts": [
+    "K3.prompt.txt"
+  ],
+  "review": {
+    "reviewer": "Codex visual comparison",
+    "notes": "K3 source rightward hip sway/viewpoint preserved: left fist visible, far hand only crescent behind Z ribbons/hair. Compact white sleeves, own belt/book/face and down-going separated thighs retained.",
+    "scope": [
+      "matching original pose/viewpoint/occlusion",
+      "same own-character identity and style",
+      "compact connected rounded arms/hands",
+      "source crop and visible thigh directions",
+      "no added raised knee or crossed-leg step",
+      "own tail/wing/accessory anatomy"
+    ],
+    "limitation": "Visual comparison; no pixel-exact tracing or motion-capture guarantee."
+  },
+  "pose_template": "characters/deepseek/keyframes/v4-individual/K3.png",
+  "turnaround_reference": "characters/glm/variants/v2-dance/sheet.png"
+}

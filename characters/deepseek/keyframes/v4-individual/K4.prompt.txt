@@ -1,0 +1,16 @@
+Use case: identity-preserve. Generate ONE single DeepSeek K4 frame, independently and carefully compared with the original. No sheet or collage.
+Image 1 is ORIGINAL K4 crop (640x360), authoritative exact pose, overlap, viewpoint, body proportions and crop. Image 2 is approved DeepSeek K1 master, authoritative SAME face, eyes/highlights, cheek shape, hair/bangs/whale-fin locks, costume, compact mitten hands, outline and cel shading. Re-pose that exact character into image 1.
+K4 is NOT a simple mirrored K3 or a one-legged hop:
+The head is noticeably SCREEN-LEFT of the pelvis. The upper body/waist lean and twist screen-left, pelvis pushes to screen-right in the opposite grounded hip-sway viewpoint. Head faces viewer, mild COUNTERCLOCKWISE tilt as source (viewer-left eye slightly lower than viewer-right eye). Shoulders counterrotate relative to hips.
+NEAR raised hand is on VIEWER'S RIGHT, fully visible near upper-right of the head, rounded and a little larger. Its short arm goes up beside/behind the head, elbow bent naturally; do not extend sideways into a long tube.
+FAR raised hand on VIEWER'S LEFT is partly hidden by head/hair, smaller and slightly LOWER than the right near hand, with most forearm occluded. Preserve the exact visibility/overlap of source. Both hands are round skin-colored mitten nubs, no fingers.
+Reference anchors in 640x360, uniformly scale:
+viewer-right near hand center about (399,83);
+viewer-left far hand center about (145,117);
+face/eye center about (269,180);
+neck about (283,232);
+pelvis center about (350,310).
+Head lies left of hips, not centered directly over them. Match original diagonal torso and turned hip outline, not generic standing pose.
+Both legs remain down/grounded, no lifted knee, jumping, kick or crossed legs. The farther upper leg appears shorter from perspective/occlusion, NOT bent up into a raised-knee ball. Its lower continuation stays outside/behind the crop rather than lifted beside the skirt. Preserve the original visible upper thigh directions and cropped bottom; do not invent feet or zoom out.
+Identity EXACTLY approved master: broad rounded peach face, huge blue/cyan gradient eyes, tiny CLOSED omega smile, blush, chunky central blue bangs, long cobalt hair with cyan ends, large blue/white whale-fin side locks, thick curved blue ahoge, white frill maid headband, two blue bows. Navy/white puff-sleeve maid dress, ruffled white cuffs, navy neck bow, white bib, gold buttons, navy belt, white whale apron, same layered navy/white skirt, ONE low blue whale tail behind skirt. Do not mirror fixed design details merely to change pose.
+Same thick clean black outlines, simple controlled cel shading and soft cute proportions. Mint background and black header with exact text "K4 双拳举头边·偏左 2.20s". Same original character scale/crop, face/style consistent with K1-K3. No rabbit identity, extra limbs, individual fingers, altered outfit or glossy generic doll face.

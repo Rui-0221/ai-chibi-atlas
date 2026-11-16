@@ -1,0 +1,35 @@
+{
+  "character": "claude",
+  "frame": "K4",
+  "seconds": 2.2,
+  "date": "2026-11-16",
+  "tool": "image_gen.imagegen (built-in)",
+  "model_version": "not exposed by tool",
+  "identity_master": "characters/claude/keyframes/v4-individual/K1.png",
+  "pose_reference": "Original user-provided matching frame crop; retained locally and not redistributed.",
+  "output": {
+    "path": "characters/claude/keyframes/v4-individual/K4.png",
+    "width": 1672,
+    "height": 941,
+    "bytes": 1733545,
+    "sha256": "4518a8a7d2138f76521c8c2188164819744f3397452e55b87ac6879177d29376"
+  },
+  "prompts": [
+    "K4.prompt.txt"
+  ],
+  "review": {
+    "reviewer": "Codex visual comparison",
+    "notes": "K4 source counterclockwise head/hip opposition matched, near right hand high and far left lower/occluded. Claude flower remains own side, cream sleeves/orange panels/front bow retained; both visible thighs down.",
+    "scope": [
+      "matching original pose/viewpoint/occlusion",
+      "same own-character identity and style",
+      "compact connected rounded arms/hands",
+      "source crop and visible thigh directions",
+      "no added raised knee or crossed-leg step",
+      "own tail/wing/accessory anatomy"
+    ],
+    "limitation": "Visual comparison; no pixel-exact tracing or motion-capture guarantee."
+  },
+  "pose_template": "characters/deepseek/keyframes/v4-individual/K4.png",
+  "turnaround_reference": "characters/claude/variants/v2-dance/sheet.png"
+}

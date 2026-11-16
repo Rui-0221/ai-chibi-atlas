@@ -1,0 +1,35 @@
+{
+  "character": "gemini",
+  "frame": "K5",
+  "seconds": 3.5,
+  "date": "2026-11-16",
+  "tool": "image_gen.imagegen (built-in)",
+  "model_version": "not exposed by tool",
+  "identity_master": "characters/gemini/keyframes/v4-individual/K1.png",
+  "pose_reference": "Original user-provided matching frame crop; retained locally and not redistributed.",
+  "output": {
+    "path": "characters/gemini/keyframes/v4-individual/K5.png",
+    "width": 1671,
+    "height": 941,
+    "bytes": 1621286,
+    "sha256": "4ed2f56558f6ab8db9c81fd9350ed02cf1c0e3de8ae29d80c91e6593f3d9d826"
+  },
+  "prompts": [
+    "K5.prompt.txt"
+  ],
+  "review": {
+    "reviewer": "Codex visual comparison",
+    "notes": "K5 back-facing folded-arm lean preserved with no eye visible, pelvis right/back and thighs down/separate. Own two cat ears/buns, star pin, long sleeve drapes and exactly one fluffy tail retained; no borrowed whale anatomy or stockings.",
+    "scope": [
+      "matching original pose/viewpoint/occlusion",
+      "same own-character identity and style",
+      "compact connected rounded arms/hands",
+      "source crop and visible thigh directions",
+      "no added raised knee or crossed-leg step",
+      "own tail/wing/accessory anatomy"
+    ],
+    "limitation": "Visual comparison; no pixel-exact tracing or motion-capture guarantee."
+  },
+  "pose_template": "characters/deepseek/keyframes/v4-individual/K5.png",
+  "turnaround_reference": "characters/gemini/variants/v2-dance/sheet.png"
+}

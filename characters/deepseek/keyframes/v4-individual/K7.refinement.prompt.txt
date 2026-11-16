@@ -1,0 +1,8 @@
+Use case: precise-object-edit. Refine this ONE DeepSeek K7 frame in image 1 against original K7 crop image 2. Maintain exact approved character identity and style.
+The upper-body/head/forearm group is too far up and to the right compared with source. Keep the pelvis, skirt hem and cropped thighs fixed, but bring the head, shoulders and near raised forearm together approximately 75-85 pixels LEFT and 50-60 pixels DOWN on image 1's 1672x941 canvas. Reconnect the torso/neck naturally with a slightly more compact, less overreaching hinge. Do not move the whole character or background and do not just slide face features within the head.
+Source-aligned target anchors on this 1672x941 canvas are approximately:
+tiny visible eye around (1020,452);
+near hand/cuff center around (1245,502).
+Keep their relative geometry coherent, and use original source pose rather than K6's stretched forward pose. Preserve short rounded upper arm, plausible elbow/wrist and the large sleeve crossing the face.
+Reduce exposed eye: raise/round the forearm's UPPER EDGE slightly where it crosses the face, so ONLY a tiny sliver of the single blue eye/eyebrow peeks ABOVE the sleeve, like original. Do not expose half a large blue iris. Mouth hidden, far eye and far hand hidden. Keep distal hand center near target anchor; no extra fist.
+Keep both legs down and separate, no crossing or knee lift. Preserve skirt coverage, rear apron bow and ONE low whale tail under rear hem. Retain the same blue/cyan long hair, fin side locks, maid headband/bows, thick outline/cel colors, current hand sizes, header text, mint background and canvas. Small pose-placement and occlusion correction only, not a redesign or a different frame.

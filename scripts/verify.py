@@ -82,6 +82,13 @@ require(not (EXPECTED_IDS & set(data["excluded_character_ids"])), "Excluded char
 png_record(data["reference_board"])
 variant_count = 0
 current_count = 0
+keyframe_count = 0
+keyframe_series = data.get("keyframe_series")
+if keyframe_series:
+    frames = keyframe_series["frames"]
+    require([f["id"] for f in frames] == [f"K{i}" for i in range(1,8)], "Expected seven ordered keyframes")
+    require([f["seconds"] for f in frames] == [0.0,1.0,1.8,2.2,3.5,4.6,5.8], "Unexpected keyframe timing")
+    require(keyframe_series["loop_seconds"] == 6.9, "Unexpected loop timing")
 for c in chars:
     require((ROOT/"characters"/c["id"]/"README.md").is_file(), f"Missing character README: {c['id']}")
     provenance = inside(c["provenance"])
@@ -111,8 +118,42 @@ for c in chars:
                 record = json.loads((ROOT/v["generation"]).read_text(encoding="utf-8"))
                 require(record["output"] == v["image"], f"Generation metadata mismatch: {c['id']}")
                 require(record["view_order"] == ["front","left-side","back"], f"View order mismatch: {c['id']}")
+    if keyframe_series:
+        collections = c.get("keyframes", [])
+        require(len(collections) == 1, f"Expected one individual keyframe series: {c['id']}")
+        for collection in collections:
+            require(collection["id"] == keyframe_series["id"] == "v4-individual", f"Wrong keyframe series: {c['id']}")
+            base = f"characters/{c['id']}/keyframes/{collection['id']}"
+            inside(base + "/README.md")
+            inside(collection["identity_reference"])
+            selected = collection["frames"]
+            require([f["id"] for f in selected] == [f"K{i}" for i in range(1,8)], f"Missing/duplicate/out-of-order frame: {c['id']}")
+            for frame, timing in zip(selected, keyframe_series["frames"]):
+                keyframe_count += 1
+                fid = frame["id"]
+                require(frame["seconds"] == timing["seconds"], f"Frame timing mismatch: {c['id']}/{fid}")
+                require(frame["image"]["path"] == base + "/" + fid + ".png", f"Nonstandard individual frame path: {c['id']}/{fid}")
+                png_record(frame["image"])
+                require(frame["image"]["width"] > frame["image"]["height"], f"Expected landscape frame: {c['id']}/{fid}")
+                generation = inside(frame["generation"])
+                record = json.loads(generation.read_text(encoding="utf-8"))
+                require(record["character"] == c["id"] and record["frame"] == fid, f"Wrong frame generation identity: {c['id']}/{fid}")
+                require(record["output"] == frame["image"] and record["seconds"] == frame["seconds"], f"Frame generation metadata mismatch: {c['id']}/{fid}")
+                require(bool(record["review"]["notes"]), f"Missing individual visual review: {c['id']}/{fid}")
+                require(bool(frame["prompts"]), f"Missing individual prompt: {c['id']}/{fid}")
+                require(frame["prompts"] == [base + "/" + p for p in record["prompts"]], f"Prompt record mismatch: {c['id']}/{fid}")
+                for prompt in frame["prompts"]:
+                    inside(prompt)
+                for key in ("identity_master", "turnaround_reference", "prior_frame_reference"):
+                    if key in record:
+                        inside(record[key])
 require(variant_count==data["variant_count"] and variant_count>=17, "Variant count mismatch or preserved sheets missing")
 require(current_count==data["new_series_count"]==8, "Expected 8 new matched sheets")
+if keyframe_series:
+    require(keyframe_count == keyframe_series["image_count"] == 56, "Expected 56 individual keyframes")
+    require(keyframe_series["character_count"] == 8, "Expected 8 keyframe characters")
+    inside("keyframes/index.html")
+    inside("keyframes/README.md")
 art_paths = {p.relative_to(ROOT).as_posix() for folder in ("characters","references") for p in (ROOT/folder).rglob("*.png")}
 require(art_paths == set(seen_images), "Artwork files and catalog image records differ")
 for name in ("README.md","LICENSE","LICENSE-CODE","ASSET-LICENSES.md","ATTRIBUTION.md","CHANGELOG.md","CONTRIBUTING.md","index.html",".github/workflows/validate.yml"):
@@ -142,5 +183,5 @@ if checksums.exists():
 if errors:
     print("\n".join("ERROR: "+e for e in errors))
     sys.exit(1)
-print(f"OK: {len(chars)} characters, {variant_count} sheets ({current_count} new), {len(seen_images)} PNG images.")
+print(f"OK: {len(chars)} characters, {variant_count} turnaround sheets ({current_count} matched), {keyframe_count} individual keyframes, {len(seen_images)} PNG images.")
 print("PNG CRC/hash/dimensions, records, local links and public-path hygiene passed.")

@@ -1,0 +1,35 @@
+{
+  "character": "gemini",
+  "frame": "K1",
+  "seconds": 0.0,
+  "date": "2026-11-16",
+  "tool": "image_gen.imagegen (built-in)",
+  "model_version": "not exposed by tool",
+  "identity_master": "characters/gemini/variants/v2-dance/sheet.png",
+  "pose_reference": "Original user-provided matching frame crop; retained locally and not redistributed.",
+  "output": {
+    "path": "characters/gemini/keyframes/v4-individual/K1.png",
+    "width": 1594,
+    "height": 987,
+    "bytes": 1795663,
+    "sha256": "7b79c258c107b066f1f050cf76f8d473a1afad6ffc6426e321fac20b93ef0be0"
+  },
+  "prompts": [
+    "K1.prompt.txt"
+  ],
+  "review": {
+    "reviewer": "Codex visual comparison",
+    "notes": "Gemini K1 own front identity checked: viewer-left magenta/right gold eyes, two cat ears/side buns, star pin viewer-right, own purple pointed bell sleeves and one fluffy low cat tail. Near left hand larger/lower, far right smaller/recessed; compact arms.",
+    "scope": [
+      "matching original pose/viewpoint/occlusion",
+      "same own-character identity and style",
+      "compact connected rounded arms/hands",
+      "source crop and visible thigh directions",
+      "no added raised knee or crossed-leg step",
+      "own tail/wing/accessory anatomy"
+    ],
+    "limitation": "Visual comparison; no pixel-exact tracing or motion-capture guarantee."
+  },
+  "pose_template": "characters/deepseek/keyframes/v4-individual/K1.png",
+  "turnaround_reference": "characters/gemini/variants/v2-dance/sheet.png"
+}

@@ -1,0 +1,34 @@
+{
+  "frame": "K3",
+  "seconds": 1.8,
+  "date": "2026-11-16",
+  "tool": "image_gen.imagegen (built-in)",
+  "model_version": "not exposed by tool",
+  "identity_master": "characters/deepseek/keyframes/v4-individual/K1.png",
+  "pose_reference": "Original user-provided K3 crop, retained locally",
+  "output": {
+    "path": "characters/deepseek/keyframes/v4-individual/K3.png",
+    "width": 1672,
+    "height": 941,
+    "bytes": 1536739,
+    "sha256": "1584237c77531dbcf16238459f9172e26eba0424fbb0a9ac8cf07e60ee5fa327"
+  },
+  "prompts": [
+    "K3.prompt.txt"
+  ],
+  "review": {
+    "reviewer": "Codex visual comparison",
+    "checks": [
+      "approved master face/hair/costume",
+      "head screen-right of pelvis and original torso diagonal",
+      "one visible near fist and far arm occluded by head",
+      "upper thighs down, no lifted knee",
+      "original cropped composition"
+    ],
+    "limitation": "Visual match, not pixel-exact tracing.",
+    "notes": "approved master face/hair/costume; head screen-right of pelvis and original torso diagonal; one visible near fist and far arm occluded by head; upper thighs down, no lifted knee; original cropped composition"
+  },
+  "pose_template": "Original user-provided corresponding frame; local only.",
+  "turnaround_reference": "characters/deepseek/variants/v2-dance/sheet.png",
+  "character": "deepseek"
+}

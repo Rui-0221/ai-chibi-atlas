@@ -1,0 +1,35 @@
+{
+  "character": "glm",
+  "frame": "K5",
+  "seconds": 3.5,
+  "date": "2026-11-16",
+  "tool": "image_gen.imagegen (built-in)",
+  "model_version": "not exposed by tool",
+  "identity_master": "characters/glm/keyframes/v4-individual/K1.png",
+  "pose_reference": "Original user-provided matching frame crop; retained locally and not redistributed.",
+  "output": {
+    "path": "characters/glm/keyframes/v4-individual/K5.png",
+    "width": 1672,
+    "height": 941,
+    "bytes": 1496306,
+    "sha256": "19b35b585f1b9e3e3340887ce704a0a0ed2bddb8b8ae841f720d2c0eba617db4"
+  },
+  "prompts": [
+    "K5.prompt.txt"
+  ],
+  "review": {
+    "reviewer": "Codex visual comparison",
+    "notes": "K5 rear folded-arm lean matched original; eye fully hidden, pelvis right/back, separate uncrossed down-going upper thighs. Own white strapped sleeve, rear black bow and skirt panels compared to turnaround; no borrowed tail or high stockings.",
+    "scope": [
+      "matching original pose/viewpoint/occlusion",
+      "same own-character identity and style",
+      "compact connected rounded arms/hands",
+      "source crop and visible thigh directions",
+      "no added raised knee or crossed-leg step",
+      "own tail/wing/accessory anatomy"
+    ],
+    "limitation": "Visual comparison; no pixel-exact tracing or motion-capture guarantee."
+  },
+  "pose_template": "characters/deepseek/keyframes/v4-individual/K5.png",
+  "turnaround_reference": "characters/glm/variants/v2-dance/sheet.png"
+}

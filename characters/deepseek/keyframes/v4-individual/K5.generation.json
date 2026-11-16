@@ -1,0 +1,35 @@
+{
+  "frame": "K5",
+  "seconds": 3.5,
+  "date": "2026-11-16",
+  "tool": "image_gen.imagegen (built-in)",
+  "model_version": "not exposed by tool",
+  "identity_master": "characters/deepseek/keyframes/v4-individual/K1.png",
+  "pose_reference": "Original user-provided K5 crop, retained locally",
+  "output": {
+    "path": "characters/deepseek/keyframes/v4-individual/K5.png",
+    "width": 1672,
+    "height": 941,
+    "bytes": 1449134,
+    "sha256": "4903bfa7c3a257841c3ce57f1b064dadf9c6575a1f6c40f4ec0bdf2f09237dd2"
+  },
+  "prompts": [
+    "K5.prompt.txt"
+  ],
+  "review": {
+    "reviewer": "Codex visual comparison",
+    "checks": [
+      "back-three-quarter facing away, no peeking eye",
+      "folded arm sleeve visible and hands tucked",
+      "head left of pelvis and diagonal hip hinge",
+      "two thighs separated, no crossing or lifted knee",
+      "master hair/maid identity and low whale tail",
+      "same original cropped leg composition"
+    ],
+    "limitation": "Visual matching, not pixel-exact tracing.",
+    "notes": "back-three-quarter facing away, no peeking eye; folded arm sleeve visible and hands tucked; head left of pelvis and diagonal hip hinge; two thighs separated, no crossing or lifted knee; master hair/maid identity and low whale tail; same original cropped leg composition"
+  },
+  "pose_template": "Original user-provided corresponding frame; local only.",
+  "turnaround_reference": "characters/deepseek/variants/v2-dance/sheet.png",
+  "character": "deepseek"
+}

@@ -1,0 +1,35 @@
+{
+  "character": "gpt",
+  "frame": "K1",
+  "seconds": 0.0,
+  "date": "2026-11-16",
+  "tool": "image_gen.imagegen (built-in)",
+  "model_version": "not exposed by tool",
+  "identity_master": "characters/gpt/variants/v2-dance/sheet.png",
+  "pose_reference": "Original user-provided matching frame crop; retained locally and not redistributed.",
+  "output": {
+    "path": "characters/gpt/keyframes/v4-individual/K1.png",
+    "width": 1593,
+    "height": 987,
+    "bytes": 1744270,
+    "sha256": "9deb191ac4b69079327a38363e87dcacc47ba17c64b0df1d07ed24bbf117c382"
+  },
+  "prompts": [
+    "K1.prompt.txt"
+  ],
+  "review": {
+    "reviewer": "Codex visual comparison",
+    "notes": "GPT K1 compared own turnaround: two lavender horns, pointed ears, own white ahoge/knot pin, violet eyes and closed pleasant smile; two small wings separate from arms, one low scaled tail. Near left hand larger/lower and far right smaller/recessed, compact sleeves and own garter retained.",
+    "scope": [
+      "matching original pose/viewpoint/occlusion",
+      "same own-character identity and style",
+      "compact connected rounded arms/hands",
+      "source crop and visible thigh directions",
+      "no added raised knee or crossed-leg step",
+      "own tail/wing/accessory anatomy"
+    ],
+    "limitation": "Visual comparison; no pixel-exact tracing or motion-capture guarantee."
+  },
+  "pose_template": "characters/deepseek/keyframes/v4-individual/K1.png",
+  "turnaround_reference": "characters/gpt/variants/v2-dance/sheet.png"
+}

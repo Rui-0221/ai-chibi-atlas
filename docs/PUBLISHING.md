@@ -30,6 +30,8 @@ python -m http.server 8000
 
 然后打开 `http://localhost:8000`。浏览页支持角色切换、版本切换、与初版并排对照，以及查看共同参考图。
 
+独立动作关键帧入口为 `keyframes/index.html`，可切换八位角色、逐帧放大与下载 PNG；GitHub 中也可通过 [动作目录](../keyframes/README.md) 查看每帧及制作记录。
+
 ## 上传前检查
 
 ```bash

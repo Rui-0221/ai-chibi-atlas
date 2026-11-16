@@ -84,7 +84,7 @@
 
 ## 本项目制作与视频参考
 
-本项目使用内置 imagegen 制作八人表情参考图与衍生三视图，历史图保持原始字节。v2-dance 的细节修正记录与提示词在各版本目录。
+本项目使用内置 imagegen 制作八人表情参考图、衍生三视图与 56 张独立动作关键帧，历史图保持原始字节。v2-dance 的细节修正记录与提示词在各版本目录。
 
 [ZipZipPipe · Bilibili](https://space.bilibili.com/4168597) · [上善无形 · Bilibili](https://space.bilibili.com/4456176) · [原视频《大AI和小AI们》](https://www.bilibili.com/video/BV1tE9XBbErS/)
 

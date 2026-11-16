@@ -1,0 +1,37 @@
+{
+  "character": "deepseek",
+  "frame": "K7",
+  "seconds": 5.8,
+  "date": "2026-11-16",
+  "tool": "image_gen.imagegen (built-in)",
+  "model_version": "not exposed by tool",
+  "identity_master": "characters/deepseek/keyframes/v4-individual/K1.png",
+  "pose_reference": "Original user-provided matching frame crop; retained locally and not redistributed.",
+  "output": {
+    "path": "characters/deepseek/keyframes/v4-individual/K7.png",
+    "width": 1672,
+    "height": 941,
+    "bytes": 1514825,
+    "sha256": "cf046de2425a432119bcf50d36eac50d43382885b067b625f21b4e8807bd19a3"
+  },
+  "prompts": [
+    "K7.prompt.txt",
+    "K7.refinement.prompt.txt",
+    "K7.refinement2.prompt.txt"
+  ],
+  "review": {
+    "reviewer": "Codex visual comparison",
+    "notes": "Rear-three-quarter forward pose; forearm crosses face with only tiny eye sliver; cuff placement refined toward source; original thighs remain down; one low whale tail.",
+    "scope": [
+      "matching original pose/viewpoint/occlusion",
+      "same own-character identity and style",
+      "compact connected rounded arms/hands",
+      "source crop and visible thigh directions",
+      "no added raised knee or crossed-leg step",
+      "own tail/wing/accessory anatomy"
+    ],
+    "limitation": "Visual comparison; no pixel-exact tracing or motion-capture guarantee."
+  },
+  "pose_template": "Original user-provided corresponding frame; local only.",
+  "turnaround_reference": "characters/deepseek/variants/v2-dance/sheet.png"
+}

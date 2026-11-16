@@ -1,0 +1,35 @@
+{
+  "character": "gpt",
+  "frame": "K2",
+  "seconds": 1.0,
+  "date": "2026-11-16",
+  "tool": "image_gen.imagegen (built-in)",
+  "model_version": "not exposed by tool",
+  "identity_master": "characters/gpt/keyframes/v4-individual/K1.png",
+  "pose_reference": "Original user-provided matching frame crop; retained locally and not redistributed.",
+  "output": {
+    "path": "characters/gpt/keyframes/v4-individual/K2.png",
+    "width": 1671,
+    "height": 941,
+    "bytes": 1699917,
+    "sha256": "0fa392e36b5d491962efeef71f2f37618f2094d853a9635bf5687c10c057275e"
+  },
+  "prompts": [
+    "K2.prompt.txt"
+  ],
+  "review": {
+    "reviewer": "Codex visual comparison",
+    "notes": "K2 source side lean, raised near left fist and low far right hand retained. GPT horns, violet eyes/closed smile, white bell sleeves, two wings distinct and one scaled low tail checked; no added lifted knee or extra limbs.",
+    "scope": [
+      "matching original pose/viewpoint/occlusion",
+      "same own-character identity and style",
+      "compact connected rounded arms/hands",
+      "source crop and visible thigh directions",
+      "no added raised knee or crossed-leg step",
+      "own tail/wing/accessory anatomy"
+    ],
+    "limitation": "Visual comparison; no pixel-exact tracing or motion-capture guarantee."
+  },
+  "pose_template": "characters/deepseek/keyframes/v4-individual/K2.png",
+  "turnaround_reference": "characters/gpt/variants/v2-dance/sheet.png"
+}

@@ -7,7 +7,7 @@
 | DeepSeek 角色及女仆二次设计 | 原型上善无形；二次设计 ZipZipPipe。上游记录为 CC BY-NC-SA 4.0，含署名、非商业与相同方式共享要求 | 初版社区三视图文件的具体绘制者与文件授权 |
 | GPT 白紫龙娘变体 | 来源为 ai-chan-sheets 的第 13 条目；来源页收录署名“这个刀子真甜” | 来源作者与授权记录为 unknown；收录者署名不等于作者 |
 | Qwen、Kimi、GLM、Claude、Gemini、Grok | ai-girls 记录 ZipZipPipe 允许图片分享与再创作的说明 | 未核实这六位角色适用同一套标准许可证 |
-| 八人表情参考图、v2-dance 衍生三视图、GPT 表情修订 | 使用内置 imagegen 生成／修订，继承各自的角色设计来源记录 | AI 衍生过程不补足尚未确认的第三方授权 |
+| 八人表情参考图、v2-dance 衍生三视图、v4-individual 独立关键帧、GPT 表情修订 | 使用内置 imagegen 生成／修订，继承各自的角色设计来源记录 | AI 衍生过程不补足尚未确认的第三方授权 |
 | 作者视频画面参考 | 来自 ai-girls 整理的 ZipZipPipe《大AI和小AI们》完整截帧 | 截帧不等于作者公布的独立立绘原文件 |
 
 DeepSeek 的许可入口：[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)。原始证据和作者链接见 [署名记录](ATTRIBUTION.md) 及 [上游声明](sources/upstream-ai-girls-NOTICE.md)。

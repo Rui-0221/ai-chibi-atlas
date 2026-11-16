@@ -1,0 +1,35 @@
+{
+  "character": "kimi",
+  "frame": "K2",
+  "seconds": 1.0,
+  "date": "2026-11-16",
+  "tool": "image_gen.imagegen (built-in)",
+  "model_version": "not exposed by tool",
+  "identity_master": "characters/kimi/keyframes/v4-individual/K1.png",
+  "pose_reference": "Original user-provided matching frame crop; retained locally and not redistributed.",
+  "output": {
+    "path": "characters/kimi/keyframes/v4-individual/K2.png",
+    "width": 1672,
+    "height": 941,
+    "bytes": 1707801,
+    "sha256": "37611eb955da961c1a7da8d9c2a10a615dfe313cfea2d5481c9d51df28faa234"
+  },
+  "prompts": [
+    "K2.prompt.txt"
+  ],
+  "review": {
+    "reviewer": "Codex visual comparison",
+    "notes": "K2 clockwise head/torso lean to right and hips left matched original. Near left fist raised, far right hand low behind hair; white sleeve and purple capelet distinct, moon accessory on own side, cropped thighs down.",
+    "scope": [
+      "matching original pose/viewpoint/occlusion",
+      "same own-character identity and style",
+      "compact connected rounded arms/hands",
+      "source crop and visible thigh directions",
+      "no added raised knee or crossed-leg step",
+      "own tail/wing/accessory anatomy"
+    ],
+    "limitation": "Visual comparison; no pixel-exact tracing or motion-capture guarantee."
+  },
+  "pose_template": "characters/deepseek/keyframes/v4-individual/K2.png",
+  "turnaround_reference": "characters/kimi/variants/v2-dance/sheet.png"
+}

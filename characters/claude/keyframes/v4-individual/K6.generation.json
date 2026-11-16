@@ -1,0 +1,36 @@
+{
+  "character": "claude",
+  "frame": "K6",
+  "seconds": 4.6,
+  "date": "2026-11-16",
+  "tool": "image_gen.imagegen (built-in)",
+  "model_version": "not exposed by tool",
+  "identity_master": "characters/claude/keyframes/v4-individual/K1.png",
+  "pose_reference": "Original user-provided matching frame crop; retained locally and not redistributed.",
+  "output": {
+    "path": "characters/claude/keyframes/v4-individual/K6.png",
+    "width": 1672,
+    "height": 941,
+    "bytes": 1651015,
+    "sha256": "f1e8cf304c3372b9065985c7a98aa9b9b749d29637842d916fcc83e1d3f0fa12"
+  },
+  "prompts": [
+    "K6.prompt.txt",
+    "K6.refinement.prompt.txt"
+  ],
+  "review": {
+    "reviewer": "Codex visual comparison",
+    "notes": "K6 forward back-three-quarter lean and single amber eye matched, round near hand below eye. Refined rear costume: removed misplaced front bow/rosettes, restored own simple rear waistband/panels. Thighs down and separate, no animal features.",
+    "scope": [
+      "matching original pose/viewpoint/occlusion",
+      "same own-character identity and style",
+      "compact connected rounded arms/hands",
+      "source crop and visible thigh directions",
+      "no added raised knee or crossed-leg step",
+      "own tail/wing/accessory anatomy"
+    ],
+    "limitation": "Visual comparison; no pixel-exact tracing or motion-capture guarantee."
+  },
+  "pose_template": "characters/deepseek/keyframes/v4-individual/K6.png",
+  "turnaround_reference": "characters/claude/variants/v2-dance/sheet.png"
+}
